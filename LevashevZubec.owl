@@ -1,0 +1,631 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Monitoring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Monitoring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health"/>
+        <rdfs:comment>Třída &quot;Activity Monitoring&quot; v ontologii &quot;Smart solutions for health monitoring&quot; zahrnuje sledování pohybu a aktivity pacienta pomocí nositelných zařízení nebo senzorů, které mohou měřit počet kroků, vzdálenost ušlouho pohybu, spálené kalorie a další relevantní metriky. Sledování aktivity může být užitečné pro zjištění úrovně fyzické aktivity pacienta, sledování pokroku v rehabilitaci a prevenci nebo monitorování rizikových skupin. Tato třída může také poskytnout informace pro diagnostiku a léčbu různých zdravotních stavů spojených s nedostatkem pohybu, jako je obezita, srdeční choroby a cukrovka.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking"/>
+        <rdfs:comment>Sledování pohybové aktivity a záznam úrovně aktivity. Může být prováděno pomocí snímačů na těle, jako jsou náramky nebo hodinky, nebo pomocí mobilních zařízení a aplikací. Data o aktivitách mohou být použita k vytvoření cvičebního plánu a sledování jeho účinnosti.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Automatic_Notification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Automatic_Notification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Medical_Assistance"/>
+        <rdfs:comment>Automatický proces, který upozorní určené osoby nebo systémy na nouzovou situaci.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Blood_Pressure_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Blood_Pressure_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking"/>
+        <rdfs:comment>&quot;Monitoring krevního tlaku&quot; zahrnuje sledování a zaznamenávání krevního tlaku v průběhu času. Krevní tlak se měří jako dva čísla, systolický a diastolický, a měření krevního tlaku může být prováděno různými způsoby, včetně domácího měření nebo měření u lékaře. Cílem sledování krevního tlaku je identifikovat vysoký nebo nízký krevní tlak a případné zdravotní problémy, které s ním mohou souviset. Měření krevního tlaku je důležitou součástí prevence a léčby hypertenze a dalších kardiovaskulárních onemocnění.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Body_Temperature_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Body_Temperature_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking"/>
+        <rdfs:comment>Sledování teploty těla je proces sběru a sledování dat o tělesné teplotě jednotlivce. Může být prováděno pomocí bezkontaktních teploměrů, nositelných zařízení a dalších technologií. Sledování tělesné teploty může pomoci jednotlivcům identifikovat a monitorovat horečku, infekce a další zdravotní stavy, které mohou ovlivnit tělesnou teplotu.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Caloric_Intake_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Caloric_Intake_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Tracking"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Hydration_Tracking"/>
+        <rdfs:comment>Sledování kalorického příjmu získaného z potravin a nápojů spotřebovaných uživatelem.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Calorie_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Calorie_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Tracking"/>
+        <rdfs:comment>Sledování příjmu kalorií a výdajů kalorií během fyzické aktivity a běžných činností. Pomocí mobilních zařízení a aplikací mohou uživatelé zaznamenávat svůj jídelníček a sledovat množství spálených kalorií. Tato data mohou být použita k vytvoření plánu stravování a k poskytnutí doporučení pro dosažení cílů v oblasti zdraví a fitness.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Analytics"/>
+        <rdfs:comment>Proces sběru, transformace a vizualizace dat ke zjištění užitečných informací. Pomáhá rozpoznat vzory a trendy a poskytuje základ pro další analýzy.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Visualization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Visualization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Analysis"/>
+        <rdfs:comment>Techniky a nástroje, které slouží k vizuálnímu zobrazování dat, aby byly snadno srozumitelné a mohly být interpretovány.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Decision_Support -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Decision_Support">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Analytics"/>
+        <rdfs:comment>Systém, který poskytuje informace a nástroje pro podporu rozhodování.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Distance_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Distance_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Tracking"/>
+        <rdfs:comment>Sledování vzdálenosti, kterou uživatelé urazí během své pohybové aktivity. Tato data mohou být použita k měření účinnosti cvičebního plánu a k poskytnutí doporučení pro zlepšení výkonu.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Medical_Assistance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Medical_Assistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Response"/>
+        <rdfs:comment>Poskytování zdravotní péče v případě nouzové situace.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Response">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Analytics"/>
+        <rdfs:comment>Systém, který umožňuje okamžitou reakci v případě nouzové situace.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Response_Buttons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Response_Buttons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Medical_Assistance"/>
+        <rdfs:comment>Tlačítka, která jsou umístěna na zařízeních nebo v místnostech a která umožňují okamžitou aktivaci nouzové odezvy.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Environmental_Exposure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Environmental_Exposure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Risk_Assessment"/>
+        <rdfs:comment>Expozice prostředí: Tato podtřída zahrnuje faktory prostředí, jako jsou například kvalita ovzduší, kvalita vody a půdy, chemické znečištění apod. Tyto faktory mohou mít vliv na zdraví jednotlivce a mohou přispět ke vzniku řady onemocnění.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Environmental_Monitoring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Environmental_Monitoring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health"/>
+        <rdfs:comment>&quot;Environmental Monitoring&quot; (Sledování prostředí) je třída v ontologii &quot;Smart řešení pro monitorování zdraví&quot;, která zahrnuje sledování různých faktorů prostředí, které mohou mít vliv na zdraví. Tyto faktory mohou zahrnovat teplotu, vlhkost, kvalitu vzduchu, úroveň hluku a světelné podmínky. Sledování těchto faktorů může pomoci identifikovat potenciální rizika pro zdraví, jako jsou alergie, astma, infekce a další onemocnění způsobená škodlivými vlivy prostředí. Sledování prostředí také může pomoci poskytnout informace o tom, jak prostředí ovlivňuje konkrétního jedince a pomoci mu optimalizovat své prostředí pro zlepšení zdraví a pohody.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#GPS_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#GPS_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Medical_Assistance"/>
+        <rdfs:comment>Sledování polohy osob nebo zařízení pomoc</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Genetic_Predisposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Genetic_Predisposition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Risk_Assessment"/>
+        <rdfs:comment>Genetická predispozice: Tato podtřída zahrnuje genetické faktory, které mohou přispět k zvýšenému riziku vzniku určitých onemocnění. Mezi genetické faktory patří například rodinná anamnéza, genetické testování apod.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Analytics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Analytics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking"/>
+        <rdfs:comment>Používání analytických metod ke zkoumání a porozumění datům v oblasti zdraví a wellness. Cílem je vytvořit informace a poznatky, které mohou být použity k zlepšení zdraví a wellness.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking"/>
+        <rdfs:comment>Zdravotní metriky sledování jsou záznamy o různých fyziologických parametrech, které mohou poskytnout užitečné informace o zdraví jednotlivce. Tyto parametry zahrnují krevní tlak, tělesnou teplotu, srdeční tep, saturaci kyslíkem, respirační frekvenci atd. Sledování těchto metrik může pomoci v diagnostice zdravotních problémů a umožnit lékařům a zdravotnickým pracovníkům určit vhodnou léčbu. Může také být užitečné pro jednotlivce, kteří sledují své zdraví a snaží se udržet zdravý životní styl. Sledování těchto metrik lze provést pomocí různých zařízení, jako jsou krevní tlakoměry, teploměry, měřiče srdečního tepu, oxymetry atd.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Risk_Assessment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Risk_Assessment">
+        <rdfs:comment>Proces posuzování rizikových faktorů a jejich dopadu na zdraví jednotlivce nebo populace. Tato třída zahrnuje tři podtřídy</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking">
+        <rdfs:comment>Sledování různých zdravotních aspektů, jako jsou fyzická aktivita, spánek, výživa a další vitální zdravotní ukazatele. Sledování zdraví umožňuje jednotlivcům získat lepší povědomí o svém zdravotním stavu a poskytuje jim možnost přijmout opatření k prevenci onemocnění a zlepšení svého zdraví.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Heart_Rate_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Heart_Rate_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking"/>
+        <rdfs:comment>Sledování srdečního tepu je proces monitorování tepové frekvence srdce. Tyto údaje jsou zaznamenávány za účelem sledování zdravotního stavu a aktivit, jako jsou cvičení a spánek. Sledování srdečního tepu může být prováděno různými způsoby, včetně nošení monitorů srdečního tepu připevněných na hrudníku, použití náramkových zařízení nebo aplikací na chytrých telefonech. Tyto údaje mohou být užitečné pro určení rizikových faktorů srdečních onemocnění nebo pro sledování účinnosti léčby srdečních chorob.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Hydration_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Hydration_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Tracking"/>
+        <rdfs:comment>Sledování množství vody, kterou uživatel spotřebuje v průběhu dne.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Lifestyle_Factors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Lifestyle_Factors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Risk_Assessment"/>
+        <rdfs:comment>Životní styl: Tato podtřída se zabývá faktory, které jsou spojeny s životním stylem jednotlivce, jako je například stravování, fyzická aktivita, konzumace alkoholu a kouření. Tyto faktory mohou mít významný vliv na zdraví a mohou přispět ke vzniku řady chronických onemocnění.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Lifestyle_Recommendations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Lifestyle_Recommendations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Decision_Support"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Treatment_Recommendations"/>
+        <rdfs:comment>Doporučení pro zdravý životní styl, které jsou vytvořeny na základě analýzy dat a informací o zdraví a wellness konkrétní osoby.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Adherence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Adherence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Management"/>
+        <rdfs:comment>Tato třída zahrnuje metody a nástroje pro sledování a zlepšení dodržování léků pacientem.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Dosage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Dosage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Management"/>
+        <rdfs:comment>Tato třída zahrnuje informace o dávkování léků, aby byla zajištěna správná dávka a minimalizovaly se vedlejší účinky.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Management">
+        <rdfs:comment>Tato třída zahrnuje všechny aspekty správy léčby, od dodržování léků po sledování vedlejších účinků a dávkování.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Side_Effects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Side_Effects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Management"/>
+        <rdfs:comment>Tato třída zahrnuje sledování a snižování vedlejších účinků léků pomocí technologií a metod monitorování.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Mental_Health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Mental_Health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Wellness_Management"/>
+        <rdfs:comment>Mental Health se zabývá sledováním a zlepšováním duševního zdraví pacientů. Tato třída zahrnuje sledování nálad, úzkosti a deprese, poskytování terapeutických opatření pro zlepšení psychického zdraví pacientů a předcházení psychickým poruchám. Sledování nálad a úzkosti může být prováděno pomocí dotazníků a dalších diagnostických nástrojů. Deprese může být sledována pomocí škál deprese a dalších diagnostických nástrojů. Pacientům mohou být poskytnuty terapeutické intervence jako je kognitivní chování terapie (CBT) nebo terapie zaměřená na řešení problémů (PST) k zlepšení psychického zdraví.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Monitoring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Monitoring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health"/>
+        <rdfs:comment>Nutriční monitorování se zaměřuje na sledování stravy a výživového stavu jedince. Tento typ monitorování zahrnuje sledování kalorického příjmu, množství tekutin, konzumaci živin a další faktory ovlivňující stravu a výživový stav. Tyto informace mohou být použity k zlepšení stravovacích návyků a podpoře zdravého životního stylu.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking"/>
+        <rdfs:comment>Třídění a sledování výživových informací získaných od uživatele, včetně potravinových skupin, kalorického příjmu a množství spotřebované vody.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Oxygen_Saturation_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Oxygen_Saturation_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking"/>
+        <rdfs:comment>&quot;Oxygen Saturation Tracking&quot; (Sledování nasycení kyslíkem) zahrnuje průběžné monitorování hladiny kyslíku v krvi pomocí neinvazivních metod, jako jsou například pulzní oxymetry. Hladina nasycení kyslíkem je důležitým zdravotním ukazatelem, který odráží schopnost těla transportovat kyslík z plic do tkání. Pokles hladiny kyslíku může být známkou problémů s dýcháním nebo kardiovaskulárních onemocnění. Sledování hladiny kyslíku v krvi může pomoci při diagnostice a léčbě těchto zdravotních problémů a také při hodnocení celkového zdravotního stavu.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Fitness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Fitness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Wellness_Management"/>
+        <rdfs:comment>Fyzická kondice se zabývá sledováním a zlepšováním fyzického zdraví pacientů. Tato třída zahrnuje sledování fyzické aktivity pacientů, jako jsou cvičení, sportování a jiné fyzické aktivity, sledování fyzické kondice, jako jsou kardiovaskulární zdraví, síla a flexibilita, a poskytování doporučení pro zlepšení fyzického zdraví pacientů. Sledování fyzické aktivity může být prováděno pomocí nositelných zařízení, jako jsou fitness náramky nebo chytré hodinky, nebo pomocí dotazníků a denních záznamů. Sledování fyzické kondice může být prováděno pomocí různých testů, jako jsou testy kardiovaskulárního zdraví, testy síly a testy flexibility. Pacientům mohou být poskytnuty doporučení pro zlepšení fyzického zdraví, jako jsou cvičení, zdravá strava a další zdravé návyky.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health">
+        <rdfs:comment>&quot;Physical Health&quot; (Fyzické zdraví) je třída ontologie &quot;Smart řešení pro monitorování zdraví&quot;, která se zabývá sledováním a hodnocením fyzického zdraví jedince. Patří sem například vitální znaky (včetně krevního tlaku, srdečního tepu a kyslíkové saturace), sledování fyzické aktivity a spánku, monitorování výživy a prostředí, a také sledování fyziologických signálů jako jsou EKG nebo EEG. Cílem této třídy je umožnit uživatelům sledovat a spravovat své fyzické zdraví a snižovat riziko vzniku chorob.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physiological_Signals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physiological_Signals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health"/>
+        <rdfs:comment>Označuje třídu ontologie &quot;Smart řešení pro monitorování zdraví&quot;, která se vztahuje k sledování psychologických signálů. Tento typ monitorování může zahrnovat sběr dat o srdečním rytmu, elektrodermální aktivitě, dýchací frekvenci a dalších fyziologických změnách, které jsou spojeny se stavem emocionálního zdraví a pohody pacienta. Psychologické signály mohou poskytnout cenné informace pro diagnostiku a léčbu duševních poruch, jako je například deprese, úzkostné poruchy a stres. Tyto signály mohou být monitorovány pomocí různých senzorů a zařízení, jako jsou například EEG, ECG nebo senzory pohybu.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Predictive_Analytics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Predictive_Analytics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Analysis"/>
+        <rdfs:comment>Analytický proces, který využívá historická data k predikci budoucích výsledků nebo chování.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Prescriptive_Analytics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Prescriptive_Analytics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Analysis"/>
+        <rdfs:comment>Analytický proces, který využívá prediktivních modelů k určení nejlepších možných akcí nebo rozhodnutí v dané situaci.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Respiratory_Rate_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Respiratory_Rate_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking"/>
+        <rdfs:comment>Respirační frekvence sleduje počet dechů za minutu a pomáhá měřit, jak dobře fungují plíce a dýchací systém. Tento typ sledování může poskytnout informace o tom, zda existuje nějaká dysfunkce dýchacích cest, jako je například astma nebo chronická obstrukční plicní nemoc (COPD). Také může být užitečné pro monitorování stavu pacienta během anestezie nebo intenzivní péče. Sledování respirační frekvence může být prováděno pomocí různých metod, včetně manuálního počítání dechů, monitorování dýchání přes hrudní pás nebo pomocí senzorů umístěných na těle.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Duration_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Duration_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Tracking"/>
+        <rdfs:comment>Tento typ monitorování se zaměřuje výhradně na délku spánku a sleduje, jak dlouho osoba spí každou noc. Sledování délky spánku může pomoci lékařům posoudit, zda pacienti dostatečně spí a zda trpí nějakými spánkovými poruchami.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Monitoring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Monitoring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health"/>
+        <rdfs:comment>&quot;Sleep Monitoring&quot; (Sledování spánku) je proces sběru, sledování a analýzy dat o spánku jedince. Pomocí senzorů a dalších technologií, které jsou integrovány do zařízení pro monitorování zdraví, mohou být sledovány různé parametry spánku, jako například délka spánku, časové úseky jednotlivých fází spánku, kvalita spánku a další. Tato data mohou být následně využita k posouzení kvality spánku a identifikaci případných poruch spánku, které by mohly mít negativní dopad na zdraví jedince.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Quality_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Quality_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Tracking"/>
+        <rdfs:comment>Tento typ monitorování se zaměřuje na kvalitu spánku a poskytuje informace o tom, jak dobře osoba spí. Sledování kvality spánku může zahrnovat měření kvality spánku na základě počtu probuzení během noci, délky doby usínání a trvání REM spánku.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Stage_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Stage_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Tracking"/>
+        <rdfs:comment>Tento typ monitorování sleduje, jak dlouho osoba stráví v jednotlivých fázích spánku, jako je například rychlý pohyb očí (REM) nebo hluboký spánek. Sledování fází spánku může poskytnout informace o kvalitě spánku a pomoci lékařům diagnostikovat spánkové poruchy.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking"/>
+        <rdfs:comment>Tento typ monitorování zahrnuje sběr dat týkajících se spánku a jeho kvality. Sledování spánku může zahrnovat monitorování doby spánku, hloubky spánku a počtu probuzení během noci.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Step_Tracking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Step_Tracking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Tracking"/>
+        <rdfs:label xml:lang="en">Step Tracking</rdfs:label>
+        <rdfs:comment>Sledování počtu kroků, které uživatelé udělají během své pohybové aktivity. Tato data mohou být použita k měření účinnosti cvičebního plánu a k poskytnutí doporučení pro zlepšení výkonu.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Stress_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Stress_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Wellness_Management"/>
+        <rdfs:comment>Stresový management je proces, který pomáhá jednotlivcům lépe zvládat stres a zlepšovat jejich duševní a fyzické zdraví. Tato kategorie v ontologii &quot;Smart solutions for health monitoring&quot; zahrnuje nástroje a technologie, které umožňují monitorování a správu stresu. Mezi tyto nástroje patří například senzory pro sledování srdečního rytmu, dýchání a elektrodermální aktivity, které pomáhají identifikovat stresové situace. K dispozici jsou také aplikace a platformy pro zvládání stresu, které poskytují cvičení a strategie pro snížení stresu, jako jsou meditace, hluboké dýchání a vizualizace. Tyto nástroje mohou být integrovány do většího systému pro správu zdraví, aby se jednotlivcům poskytla ucelená řešení pro sledování a zlepšování jejich celkového zdraví a pohody.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#TestClass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#TestClass"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Treatment_Recommendations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Treatment_Recommendations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Decision_Support"/>
+        <rdfs:comment>Doporučení pro nejlepší způsob léčby, které jsou vytvořeny na základě analýzy dat a informací o zdraví a wellness konkrétní osoby.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Vital_Signs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Vital_Signs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health"/>
+        <rdfs:comment>Fyziologické signály - Tato kategorie zahrnuje sledování fyziologických signálů, jako jsou elektrokardiogram (EKG), elektroencefalogram (EEG), elektromyogram (EMG) a další, aby se získaly informace o fungování různých orgánů v těle.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Wellness_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Wellness_Management">
+        <rdfs:comment>Wellness Management se zabývá sledováním a zlepšováním celkového zdraví a blahobytu pacientů. Tato třída zahrnuje monitorování stresu, duševního zdraví a fyzické kondice pacientů. Sledování stresu může zahrnovat sledování hladin kortizolu v těle a poskytování doporučení pro jeho snížení. Duševní zdraví může být sledováno pomocí sledování nálad, úzkosti a deprese a poskytování terapeutických opatření pro zlepšení psychického zdraví pacientů. Fyzická kondice pacientů může být sledována pomocí sledování pravidelné fyzické aktivity, sledování stravy a poskytování doporučení pro zlepšení fyzické kondice pacientů.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#HeartRate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#HeartRate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#TestClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#JohnDoe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#JohnDoe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#TestClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#TestClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Monitoring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Environmental_Monitoring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Monitoring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physiological_Signals"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Monitoring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Vital_Signs"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Tracking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Analytics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Tracking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Tracking"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Automatic_Notification"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Response_Buttons"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#GPS_Tracking"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Blood_Pressure_Tracking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Body_Temperature_Tracking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Heart_Rate_Tracking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Oxygen_Saturation_Tracking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Respiratory_Rate_Tracking"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Calorie_Tracking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Distance_Tracking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Step_Tracking"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Analysis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Decision_Support"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Response"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Visualization"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Predictive_Analytics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Prescriptive_Analytics"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Environmental_Exposure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Genetic_Predisposition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Lifestyle_Factors"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Risk_Assessment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Management"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Wellness_Management"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Adherence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Dosage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Side_Effects"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Mental_Health"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Fitness"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Stress_Management"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Duration_Tracking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Quality_Tracking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Stage_Tracking"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
