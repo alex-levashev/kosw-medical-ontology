@@ -21,456 +21,564 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Monitoring -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_And_Lifestyle_Monitoring_Devices -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Monitoring">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health"/>
-        <rdfs:comment>Třída &quot;Activity Monitoring&quot; v ontologii &quot;Smart solutions for health monitoring&quot; zahrnuje sledování pohybu a aktivity pacienta pomocí nositelných zařízení nebo senzorů, které mohou měřit počet kroků, vzdálenost ušlouho pohybu, spálené kalorie a další relevantní metriky. Sledování aktivity může být užitečné pro zjištění úrovně fyzické aktivity pacienta, sledování pokroku v rehabilitaci a prevenci nebo monitorování rizikových skupin. Tato třída může také poskytnout informace pro diagnostiku a léčbu různých zdravotních stavů spojených s nedostatkem pohybu, jako je obezita, srdeční choroby a cukrovka.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_And_Lifestyle_Monitoring_Devices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Monitoring_Devices"/>
+        <rdfs:comment>&quot;Zařízení pro sledování aktivity a životního stylu&quot; (anglicky &quot;Activity and lifestyle monitoring devices&quot;) jsou elektronická zařízení, která umožňují uživatelům sledovat svou fyzickou aktivitu, zdravotní stav a další faktory ovlivňující jejich životní styl. Tyto zařízení mohou být užitečná pro zlepšení celkového zdraví a fitness uživatele.
+
+Mezi zařízení pro sledování aktivity a životního stylu patří například krokoměry, které měří počet kroků uživatele během dne, a sledují tak jeho celkovou fyzickou aktivitu. Některá zařízení také umožňují sledovat srdeční frekvenci a další vitální funkce.
+
+Dalšími příklady zařízení pro sledování aktivity a životního stylu jsou senzory pro sledování spánku, které umožňují uživatelům monitorovat kvalitu a délku spánku. Některá zařízení umožňují také sledovat kalorický příjem a výdej, což pomáhá uživatelům plánovat svou stravu a cvičení.
+
+Zařízení pro sledování aktivity a životního stylu mohou být užitečná pro lidi s cílem zlepšit svou kondici, hubnout nebo udržovat zdravý životní styl. Tyto zařízení mohou také být užitečná pro sportovce a lidi, kteří se aktivně věnují sportu.
+
+Zařízení pro sledování aktivity a životního stylu mohou být k dispozici v různých formách, od jednoduchých přístrojů po komplexní systémy, které umožňují propojení s mobilními aplikacemi a dalšími zařízeními pro zdravotní sledování.</rdfs:comment>
+        <rdfs:label>Activity And Lifestyle Monitoring Devices</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Ambient_Temperature_Monitors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking"/>
-        <rdfs:comment>Sledování pohybové aktivity a záznam úrovně aktivity. Může být prováděno pomocí snímačů na těle, jako jsou náramky nebo hodinky, nebo pomocí mobilních zařízení a aplikací. Data o aktivitách mohou být použita k vytvoření cvičebního plánu a sledování jeho účinnosti.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Ambient_Temperature_Monitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Temperature_Monitoring_Devices"/>
+        <rdfs:comment>Ambientní teplotní monitory jsou zařízení určená k měření teploty vzduchu v určitém prostoru. Tyto monitory mohou být stacionární, umístěné na pevném místě, nebo přenosné, což umožňuje snadnou změnu umístění.
+
+Ambientní teplotní monitory mohou být použity v mnoha různých oblastech, jako je například monitorování teploty v nemocničních prostorách, laboratořích, skladovacích prostorech, potravinářských provozech nebo v kancelářských prostorách. Některé z těchto monitorů umožňují také sledování vlhkosti vzduchu a jiných parametrů prostředí.
+
+Ambientní teplotní monitory mohou být vybaveny různými funkcemi, jako je například snímání teploty v určitých intervalech, vizualizace naměřených hodnot na displeji, ukládání naměřených dat a přenos dat pomocí rozhraní USB nebo bezdrátového připojení. Některé monitory také poskytují upozornění, pokud teplota překročí určitou hodnotu, což umožňuje okamžité reagování a prevenci možných problémů.</rdfs:comment>
+        <rdfs:label>Ambient Temperature Monitors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Automatic_Notification -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Automatic_Blood_Pressure_Monitors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Automatic_Notification">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Medical_Assistance"/>
-        <rdfs:comment>Automatický proces, který upozorní určené osoby nebo systémy na nouzovou situaci.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Automatic_Blood_Pressure_Monitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Blood_Pressure_Monitors"/>
+        <rdfs:comment>Automatické monitory krevního tlaku jsou zařízení, která umožňují automatické měření krevního tlaku bez potřeby manuálního pumpy. Tyto monitory jsou obvykle vybaveny displejem, který zobrazuje naměřené hodnoty.</rdfs:comment>
+        <rdfs:label>Automatic Blood Pressure Monitors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Blood_Pressure_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Blood_Pressure_Monitors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Blood_Pressure_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking"/>
-        <rdfs:comment>&quot;Monitoring krevního tlaku&quot; zahrnuje sledování a zaznamenávání krevního tlaku v průběhu času. Krevní tlak se měří jako dva čísla, systolický a diastolický, a měření krevního tlaku může být prováděno různými způsoby, včetně domácího měření nebo měření u lékaře. Cílem sledování krevního tlaku je identifikovat vysoký nebo nízký krevní tlak a případné zdravotní problémy, které s ním mohou souviset. Měření krevního tlaku je důležitou součástí prevence a léčby hypertenze a dalších kardiovaskulárních onemocnění.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Blood_Pressure_Monitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Cardiovascular_Monitoring_Devices"/>
+        <rdfs:comment>Monitory krevního tlaky jsou medicínská zařízení, která měří krevní tlak pacienta. Tyto monitory jsou důležité pro diagnostiku a léčbu vysokého krevního tlaku, který může být příčinou mnoha zdravotních problémů.</rdfs:comment>
+        <rdfs:label>Blood Pressure Monitors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Body_Temperature_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Capnography -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Body_Temperature_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking"/>
-        <rdfs:comment>Sledování teploty těla je proces sběru a sledování dat o tělesné teplotě jednotlivce. Může být prováděno pomocí bezkontaktních teploměrů, nositelných zařízení a dalších technologií. Sledování tělesné teploty může pomoci jednotlivcům identifikovat a monitorovat horečku, infekce a další zdravotní stavy, které mohou ovlivnit tělesnou teplotu.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Capnography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Respiratory_Monitoring_Devices"/>
+        <rdfs:comment>Capnografie je proces monitorování obsahu oxidu uhličitého (CO2) v dýchacích cestách. Tento proces je důležitý pro sledování respirační funkce pacienta během anestezie, resuscitace a intenzivní péče.</rdfs:comment>
+        <rdfs:label>Capnography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Caloric_Intake_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Cardiovascular_Monitoring_Devices -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Caloric_Intake_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Tracking"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Hydration_Tracking"/>
-        <rdfs:comment>Sledování kalorického příjmu získaného z potravin a nápojů spotřebovaných uživatelem.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Cardiovascular_Monitoring_Devices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physiological_Monitoring_Devices"/>
+        <rdfs:comment>Kardiovaskulární monitorovací zařízení jsou zařízení určená pro sledování zdravotního stavu srdce a krevního oběhu.</rdfs:comment>
+        <rdfs:label>Cardiovascular Monitoring Devices</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Calorie_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Contact_Temperature_Monitors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Calorie_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Tracking"/>
-        <rdfs:comment>Sledování příjmu kalorií a výdajů kalorií během fyzické aktivity a běžných činností. Pomocí mobilních zařízení a aplikací mohou uživatelé zaznamenávat svůj jídelníček a sledovat množství spálených kalorií. Tato data mohou být použita k vytvoření plánu stravování a k poskytnutí doporučení pro dosažení cílů v oblasti zdraví a fitness.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Contact_Temperature_Monitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Temperature_Monitoring_Devices"/>
+        <rdfs:comment>Kontaktní teplotní monitory jsou zařízení pro měření teploty, které se umisťují přímo na povrch těla nebo na jiné předměty. Tyto monitory mohou měřit teplotu prostřednictvím senzoru, který je umístěn na konci kabelu nebo na špičce samotného monitoru. Senzor se umisťuje na kůži nebo jiné objekty, jako jsou povrchy postele nebo nástroje v chirurgickém zákroku. Kontakt mezi senzorem a povrchem umožňuje přesné měření teploty.
+
+Kontaktní teplotní monitory se používají k monitorování teploty u pacientů v nemocnicích a klinikách, ale také v průmyslových aplikacích, jako je například měření teploty na povrchu strojů. Tyto monitory jsou obvykle přenosné a lze je snadno použít k měření teploty na různých místech těla nebo v různých prostředích. Některé modely mají možnost připojení k počítači nebo mobilnímu zařízení, což umožňuje sledovat a zaznamenávat data teploty v reálném čase.</rdfs:comment>
+        <rdfs:label>Contact Temperature Monitors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Analysis -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Dialysis_Machines -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Analysis">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Analytics"/>
-        <rdfs:comment>Proces sběru, transformace a vizualizace dat ke zjištění užitečných informací. Pomáhá rozpoznat vzory a trendy a poskytuje základ pro další analýzy.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Dialysis_Machines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_And_Treatment_Monitoring_Devices"/>
+        <rdfs:comment>Dialyzační stroje jsou zařízení, která umožňují pacientům s poškozenými ledvinami vyčistit krev pomocí umělého ledvinného filtru. Tyto stroje jsou běžně používány při dialýze v nemocnic</rdfs:comment>
+        <rdfs:label>Dialysis Machines</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Visualization -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Drug_Delivery_Devices -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Visualization">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Analysis"/>
-        <rdfs:comment>Techniky a nástroje, které slouží k vizuálnímu zobrazování dat, aby byly snadno srozumitelné a mohly být interpretovány.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Drug_Delivery_Devices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_And_Treatment_Monitoring_Devices"/>
+        <rdfs:comment>Zařízení pro podávání léků umožňují přesné a efektivní podávání léků pacientům v různých formách, včetně tablet, kapslí, roztoků a injekcí. Mohou být použity v různých zdravotnických prostředích, včetně nemocnic, klinik a domácí péče.</rdfs:comment>
+        <rdfs:label>Drug Delivery Devices</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Decision_Support -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#EKG_Monitors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Decision_Support">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Analytics"/>
-        <rdfs:comment>Systém, který poskytuje informace a nástroje pro podporu rozhodování.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#EKG_Monitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Cardiovascular_Monitoring_Devices"/>
+        <rdfs:comment>EKG monitory jsou medicínská zařízení, která slouží k monitorování srdečního rytmu a srdeční aktivity pacienta. Tyto monitory měří elektrickou aktivitu srdce a zobrazují ji na obrazovce.</rdfs:comment>
+        <rdfs:label>EKG Monitors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Distance_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Food_and_Nutrition_Trackers -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Distance_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Tracking"/>
-        <rdfs:comment>Sledování vzdálenosti, kterou uživatelé urazí během své pohybové aktivity. Tato data mohou být použita k měření účinnosti cvičebního plánu a k poskytnutí doporučení pro zlepšení výkonu.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Food_and_Nutrition_Trackers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_And_Lifestyle_Monitoring_Devices"/>
+        <rdfs:label>Food and Nutrition Trackers</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Medical_Assistance -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Monitoring_Devices -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Medical_Assistance">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Response"/>
-        <rdfs:comment>Poskytování zdravotní péče v případě nouzové situace.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Monitoring_Devices">
+        <rdfs:comment>&quot;Zařízení pro sledování zdraví&quot; (anglicky &quot;Health monitoring devices&quot;) jsou elektronická zařízení, která umožňují sledovat různé aspekty zdraví uživatele. Tato zařízení mohou měřit různé fyziologické veličiny, jako je krevní tlak, srdeční frekvence, hladina kyslíku v krvi nebo hladina cukru v krvi. Kromě toho mohou tato zařízení sledovat i další informace, jako je spánek, fyzická aktivita, tělesná hmotnost, teplota těla nebo stav plodu u těhotných žen.
+
+Zařízení pro sledování zdraví jsou často propojena s chytrými telefony nebo jinými mobilními zařízeními, aby uživatelé mohli snadno sledovat a analyzovat svá data. Tyto zařízení jsou často používána lidmi s chronickými onemocněními nebo zdravotními problémy, ale také mohou být využívána lidmi, kteří se zajímají o své zdraví a chtějí sledovat své fyziologické parametry.
+
+Zařízení pro sledování zdraví mohou být k dispozici v různých velikostech, tvarech a funkcích. Některá zařízení jsou připevněna na tělo, zatímco jiná jsou samostatná a mohou být přenášena. Tyto zařízení mohou být k dispozici jak pro profesionální použití, tak i pro domácí použití.</rdfs:comment>
+        <rdfs:label>Health Monitoring Devices</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Response -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Heart-Lung_Machines -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Response">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Analytics"/>
-        <rdfs:comment>Systém, který umožňuje okamžitou reakci v případě nouzové situace.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Heart-Lung_Machines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_And_Treatment_Monitoring_Devices"/>
+        <rdfs:comment>Heart-Lung Machines (srdečně-plicní stroje) jsou medicínská zařízení používaná během operací srdce, aby nahradila funkci srdce a plic během zákroku. Tyto stroje pracují jako umělé srdce a plicní ventilace a mohou dodávat kyslík do krve a odstraňovat oxid uhličitý. Tímto způsobem dokážou udržet krevní oběh a zásobování kyslíkem, zatímco srdce pacienta je mimo provoz a chirurgové pracují na něm. Heart-Lung Machines se skládají z mnoha různých komponentů, včetně čerpadla, plicních ventilátorů, kyslíkového generátoru a krevního filtru. Přesná konfigurace Heart-Lung Machine se liší podle typu operace, kterou je třeba provést, a potřeb pacienta. Tyto stroje jsou nezbytné pro mnoho komplikovaných operací srdce a zlepšují šance pacientů na úspěšné přežití a obnovu zdraví.</rdfs:comment>
+        <rdfs:label>Heart-Lung Machines</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Response_Buttons -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Holter_Monitors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Response_Buttons">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Medical_Assistance"/>
-        <rdfs:comment>Tlačítka, která jsou umístěna na zařízeních nebo v místnostech a která umožňují okamžitou aktivaci nouzové odezvy.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Holter_Monitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#EKG_Monitors"/>
+        <rdfs:comment>Holterovy monitory jsou malá přenosná zařízení, která slouží k nepřetržitému monitorování srdečního rytmu a srdeční aktivity po dobu 24 až 48 hodin. Tyto monitory jsou obvykle nošeny pacientem během každodenních aktivit a jsou užitečné při diagnostice srdečních arytmií.</rdfs:comment>
+        <rdfs:label>Holter Monitors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Environmental_Exposure -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Implantable_Temperature_Monitors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Environmental_Exposure">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Risk_Assessment"/>
-        <rdfs:comment>Expozice prostředí: Tato podtřída zahrnuje faktory prostředí, jako jsou například kvalita ovzduší, kvalita vody a půdy, chemické znečištění apod. Tyto faktory mohou mít vliv na zdraví jednotlivce a mohou přispět ke vzniku řady onemocnění.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Implantable_Temperature_Monitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Temperature_Monitoring_Devices"/>
+        <rdfs:comment>Implantovatelné teplotní monitory jsou zařízení, která jsou umístěna uvnitř těla pacienta a slouží k monitorování teploty vnitřních orgánů nebo tkání. Tyto monitory jsou nejčastěji používány během chirurgických zákroků nebo v intenzivní péči a jsou obvykle umístěny v tělní dutině, cévách, svalové tkáni nebo kostech.
+
+Implantovatelné teplotní monitory jsou navrženy tak, aby byly biokompatibilní s tělními tkáněmi a aby minimalizovaly riziko infekce a odmítnutí. Mnoho z těchto zařízení má také schopnost komunikovat s jinými přístroji, což umožňuje snadnější sběr dat a monitorování pacienta.
+
+Mezi nejčastější použití implantovatelných teplotních monitorů patří sledování teploty v mozku pacientů po traumatu hlavy, sledování teploty při chirurgických zákrocích, sledování teploty vnitřních orgánů během transplantace a sledování teploty v cévách u pacientů s kardiovaskulárními onemocněními.</rdfs:comment>
+        <rdfs:label>Implantable Temperature Monitors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Environmental_Monitoring -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Infusion_Pumps -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Environmental_Monitoring">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health"/>
-        <rdfs:comment>&quot;Environmental Monitoring&quot; (Sledování prostředí) je třída v ontologii &quot;Smart řešení pro monitorování zdraví&quot;, která zahrnuje sledování různých faktorů prostředí, které mohou mít vliv na zdraví. Tyto faktory mohou zahrnovat teplotu, vlhkost, kvalitu vzduchu, úroveň hluku a světelné podmínky. Sledování těchto faktorů může pomoci identifikovat potenciální rizika pro zdraví, jako jsou alergie, astma, infekce a další onemocnění způsobená škodlivými vlivy prostředí. Sledování prostředí také může pomoci poskytnout informace o tom, jak prostředí ovlivňuje konkrétního jedince a pomoci mu optimalizovat své prostředí pro zlepšení zdraví a pohody.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Infusion_Pumps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_And_Treatment_Monitoring_Devices"/>
+        <rdfs:label>Infusion Pumps</rdfs:label>
+        <rdfs:label>Infuzní pumpy jsou zařízení, která umožňují přesné a konstantní dávkování tekutin, jako jsou léky nebo živiny, do těla pacienta. Mohou být použity při různých léčebných postupech, včetně hydratace, chemoterapie a podávání antibiotik. Existují různé typy infuzních pump, včetně peristaltických a lineárních.</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#GPS_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Inhalers -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#GPS_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Medical_Assistance"/>
-        <rdfs:comment>Sledování polohy osob nebo zařízení pomoc</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Inhalers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_And_Treatment_Monitoring_Devices"/>
+        <rdfs:comment>Inhalátory jsou zařízení, která umožňují pacientům s respiračními potížemi inhalovat léky ve formě suchého prášku. Tyto inhalátory jsou obvykle menší a snadněji přenosné než nebulizéry a jsou vhodné pro pacienty, kteří potřebují rychlou a snadnou aplikaci léků.</rdfs:comment>
+        <rdfs:label>Inhalers</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Genetic_Predisposition -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Insulin_Pumps -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Genetic_Predisposition">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Risk_Assessment"/>
-        <rdfs:comment>Genetická predispozice: Tato podtřída zahrnuje genetické faktory, které mohou přispět k zvýšenému riziku vzniku určitých onemocnění. Mezi genetické faktory patří například rodinná anamnéza, genetické testování apod.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Insulin_Pumps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_And_Treatment_Monitoring_Devices"/>
+        <rdfs:comment>Inzulínové pumpy jsou malá zařízení, která umožňují pacientům s diabetem přesně dávkovat inzulín. Pumpy poskytují stabilní hladinu inzulínu během celého dne, což pomáhá udržovat správnou hladinu cukru v krvi.</rdfs:comment>
+        <rdfs:label>Insulin Pumps</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Analytics -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Mainstream_Capnography -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Analytics">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking"/>
-        <rdfs:comment>Používání analytických metod ke zkoumání a porozumění datům v oblasti zdraví a wellness. Cílem je vytvořit informace a poznatky, které mohou být použity k zlepšení zdraví a wellness.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Mainstream_Capnography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Capnography"/>
+        <rdfs:comment>Hlavní výhoda mainstream capnografie spočívá v tom, že snímač je umístěn v trubici přímo na konci endotracheálního tubusu a snímá hladinu CO2 přímo z dýchacího proudu. To umožňuje přesné a rychlé měření.</rdfs:comment>
+        <rdfs:label>Mainstream Capnography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Manual_Blood_Pressure_Monitors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking"/>
-        <rdfs:comment>Zdravotní metriky sledování jsou záznamy o různých fyziologických parametrech, které mohou poskytnout užitečné informace o zdraví jednotlivce. Tyto parametry zahrnují krevní tlak, tělesnou teplotu, srdeční tep, saturaci kyslíkem, respirační frekvenci atd. Sledování těchto metrik může pomoci v diagnostice zdravotních problémů a umožnit lékařům a zdravotnickým pracovníkům určit vhodnou léčbu. Může také být užitečné pro jednotlivce, kteří sledují své zdraví a snaží se udržet zdravý životní styl. Sledování těchto metrik lze provést pomocí různých zařízení, jako jsou krevní tlakoměry, teploměry, měřiče srdečního tepu, oxymetry atd.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Manual_Blood_Pressure_Monitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Blood_Pressure_Monitors"/>
+        <rdfs:comment>Ruční monitory krevního tlaky jsou jednoduchá zařízení, která umožňují ruční měření krevního tlaku. Tyto monitory se skládají z manžety, která se umístí kolem paže, a stetoskopu, který lékař používá k poslechu srdce a určení krevního tlaku.</rdfs:comment>
+        <rdfs:label>Manual Blood Pressure Monitors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Risk_Assessment -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_And_Treatment_Monitoring_Devices -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Risk_Assessment">
-        <rdfs:comment>Proces posuzování rizikových faktorů a jejich dopadu na zdraví jednotlivce nebo populace. Tato třída zahrnuje tři podtřídy</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_And_Treatment_Monitoring_Devices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Monitoring_Devices"/>
+        <rdfs:comment>&quot;Zařízení pro sledování léčby a medikace&quot; (anglicky &quot;Medication and treatment monitoring devices&quot;) jsou elektronická zařízení, která umožňují sledovat a spravovat léčbu a medikaci uživatele. Tato zařízení mohou pomoci uživatelům správně užívat léky včas a v požadované dávce a také sledovat účinnost léčby a vedlejší účinky léků.
+
+Mezi zařízení pro sledování léčby a medikace patří například automatické dávkovače léků, které umožňují uživatelům správně rozdělit léky do požadovaných dávek a upozorňovat na čas podání léku. Některá zařízení umožňují také sledovat zásoby léků a upozorňovat na nutnost doplnění zásob.
+
+Dalšími příklady zařízení pro sledování léčby a medikace jsou mobilní aplikace, které umožňují uživatelům sledovat své léky, zapisovat dávky a upozorňovat na čas podání. Některé aplikace také umožňují uživatelům sledovat svůj zdravotní stav a sdílet informace se zdravotními pracovníky.
+
+Zařízení pro sledování léčby a medikace mohou být užitečná pro lidi s chronickými onemocněními, jako jsou například cukrovka, srdeční choroby nebo astma, kteří potřebují pravidelně užívat léky. Tyto zařízení mohou také být užitečná pro starší osoby, které mají potíže s pamětí a potřebují pravidelné upozornění na podání léku.
+
+Zařízení pro sledování léčby a medikace mohou být k dispozici v různých formách, od jednoduchých přístrojů po komplexní systémy, které umožňují propojení s elektronickými zdravotnickými záznamy a zdravotnickými zařízeními.</rdfs:comment>
+        <rdfs:label>Medication And Treatment Monitoring Devices</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nebulizers -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking">
-        <rdfs:comment>Sledování různých zdravotních aspektů, jako jsou fyzická aktivita, spánek, výživa a další vitální zdravotní ukazatele. Sledování zdraví umožňuje jednotlivcům získat lepší povědomí o svém zdravotním stavu a poskytuje jim možnost přijmout opatření k prevenci onemocnění a zlepšení svého zdraví.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nebulizers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_And_Treatment_Monitoring_Devices"/>
+        <rdfs:comment>Nebulizéry jsou zařízení, která umožňují pacientům s respiračními potížemi inhalovat léky ve formě aerosolu. Tento postup může být účinnější než tradiční inhalace z inhalátorů nebo pump, protože léky se dostávají přímo do plic.</rdfs:comment>
+        <rdfs:label>Nebulizers</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Heart_Rate_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Neurological_Monitoring_Devices -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Heart_Rate_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking"/>
-        <rdfs:comment>Sledování srdečního tepu je proces monitorování tepové frekvence srdce. Tyto údaje jsou zaznamenávány za účelem sledování zdravotního stavu a aktivit, jako jsou cvičení a spánek. Sledování srdečního tepu může být prováděno různými způsoby, včetně nošení monitorů srdečního tepu připevněných na hrudníku, použití náramkových zařízení nebo aplikací na chytrých telefonech. Tyto údaje mohou být užitečné pro určení rizikových faktorů srdečních onemocnění nebo pro sledování účinnosti léčby srdečních chorob.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Neurological_Monitoring_Devices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physiological_Monitoring_Devices"/>
+        <rdfs:comment>Neurologická monitorovací zařízení jsou zařízení používaná pro sledování neurologických funkcí u pacientů. Tato třída monitorovacích zařízení zahrnuje elektroencefalografy (EEG) a elektromyografy (EMG).</rdfs:comment>
+        <rdfs:label>Neurological Monitoring Devices</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Hydration_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Non-Contact_Temperature_Monitors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Hydration_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Tracking"/>
-        <rdfs:comment>Sledování množství vody, kterou uživatel spotřebuje v průběhu dne.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Non-Contact_Temperature_Monitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Temperature_Monitoring_Devices"/>
+        <rdfs:comment>Nekontaktní teploměry jsou zařízení, která mohou měřit teplotu objektů bez nutnosti přímého kontaktu s nimi. Tyto teploměry využívají infračervené záření, které vysílají z měřeného objektu a poté měří jeho odraz nebo emisi záření zpět k detektoru. Tyto teploměry jsou obecně považovány za hygieničtější a bezpečnější než kontaktní teploměry, protože nevyžadují žádný kontakt s měřeným objektem, což snižuje riziko šíření infekcí.
+
+Nekontaktní teploměry jsou velmi užitečné v situacích, kdy je nutné měřit teplotu bez narušení povrchu objektu nebo bez kontaktu s lidskou kůží, jako je například měření teploty potravin, tekutin, povrchů strojů, atd. Tyto teploměry jsou také velmi užitečné v zdravotnictví pro měření teploty pacientů, zejména v případech, kdy je nutné měřit teplotu bez nutnosti dotýkat se pacienta, jako je například měření teploty u novorozenců nebo u pacientů s infekčními chorobami.
+
+Nekontaktní teploměry jsou k dispozici v mnoha typech a velikostech, od ručních teploměrů po stolní a přenosné modely. Tyto teploměry mohou být také vybaveny různými funkcemi, jako je například automatické vypnutí, paměťové funkce, rychlé měření a další.</rdfs:comment>
+        <rdfs:label>Non-Contact Temperature Monitors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Lifestyle_Factors -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Pain_And_Rehabilitation_Monitoring_Devices -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Lifestyle_Factors">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Risk_Assessment"/>
-        <rdfs:comment>Životní styl: Tato podtřída se zabývá faktory, které jsou spojeny s životním stylem jednotlivce, jako je například stravování, fyzická aktivita, konzumace alkoholu a kouření. Tyto faktory mohou mít významný vliv na zdraví a mohou přispět ke vzniku řady chronických onemocnění.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Pain_And_Rehabilitation_Monitoring_Devices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Monitoring_Devices"/>
+        <rdfs:comment>&quot;Zařízení pro sledování bolesti a rehabilitace&quot; (anglicky &quot;Pain and rehabilitation monitoring devices&quot;) jsou elektronická zařízení používaná k monitorování a řízení bolesti a rehabilitace po poranění nebo operaci. Tyto zařízení jsou často používána v zdravotnických zařízeních, jako jsou nemocnice, kliniky a rehabilitační střediska.
+
+Mezi zařízení pro sledování bolesti a rehabilitace patří například elektromyografie (EMG), která měří elektrické signály generované svaly. Toto zařízení může být použito k posouzení svalové funkce a při terapii různých svalových a nervových poruch.
+
+Dalšími příklady zařízení pro sledování bolesti a rehabilitace jsou transkutánní elektrická stimulace (TENS) a neuromuskulární elektrická stimulace (NMES), které jsou používány k řízení bolesti a posílení svalů po poranění nebo operaci. Tyto zařízení fungují tak, že elektrické signály jsou aplikovány na kůži a stimulují nervová vlákna, což snižuje bolest a podporuje růst svalů.
+
+Zařízení pro sledování bolesti a rehabilitace mohou být také používána k monitorování průběhu rehabilitace pacienta a k posouzení úspěšnosti terapie. Tyto přístroje mohou být připojeny k dalším zdravotnickým zařízením, jako jsou počítačové systémy pro záznam a analýzu dat, což usnadňuje práci zdravotnického personálu a pomáhá při poskytování optimální péče pacientům.
+
+Zařízení pro sledování bolesti a rehabilitace jsou důležitými nástroji v oblasti zdravotnictví a pomáhají pacientům zotavit se po různých zdravotních problémech a zraněních.</rdfs:comment>
+        <rdfs:label>Pain And Rehabilitation Monitoring Devices</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Lifestyle_Recommendations -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physiological_Monitoring_Devices -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Lifestyle_Recommendations">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Decision_Support"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Treatment_Recommendations"/>
-        <rdfs:comment>Doporučení pro zdravý životní styl, které jsou vytvořeny na základě analýzy dat a informací o zdraví a wellness konkrétní osoby.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physiological_Monitoring_Devices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Monitoring_Devices"/>
+        <rdfs:comment>&quot;Fyziologická monitorovací zařízení&quot; (anglicky &quot;Physiological monitoring devices&quot;) jsou elektronická zařízení používaná k měření a sledování vitálních funkcí člověka, jako jsou srdeční frekvence, krevní tlak, dechová frekvence, hladiny kyslíku v krvi a další. Tyto zařízení jsou často používána v zdravotnických zařízeních, jako jsou nemocnice, kliniky a ordinace.
+
+Mezi fyziologická monitorovací zařízení patří například elektrokardiograf (EKG), který měří srdeční frekvenci a srdeční rytmus. Fyziologická monitorovací zařízení mohou také měřit krevní tlak, což je důležitá informace pro diagnostiku a léčbu hypertenze.
+
+Dalšími příklady fyziologických monitorovacích zařízení jsou pulzní oxymetry, které měří hladiny kyslíku v krvi, nebo spirometry, které měří objem a rychlost dýchání. Tyto přístroje jsou často používány pro diagnostiku a monitorování různých onemocnění dýchacího ústrojí.
+
+Fyziologická monitorovací zařízení mohou být také používána k sledování stavu pacientů během operací a v intenzivní péči. V těchto případech mohou být připojena k pacientovi přímo na kůži, aby mohla poskytovat přesné a neustálé sledování jeho vitálních funkcí.
+
+Fyziologická monitorovací zařízení jsou obvykle velmi přesná a spolehlivá, což je důležité pro správnou diagnózu a léčbu pacientů. Tyto přístroje mohou být také připojeny k dalším zdravotnickým zařízením, jako jsou počítačové systémy pro záznam a analýzu dat, což usnadňuje práci zdravotnického personálu a pomáhá při poskytování optimální péče pacientům.</rdfs:comment>
+        <rdfs:label>Physiological Monitoring Devices</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Adherence -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Portable_EEG_Monitors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Adherence">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Management"/>
-        <rdfs:comment>Tato třída zahrnuje metody a nástroje pro sledování a zlepšení dodržování léků pacientem.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Portable_EEG_Monitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Electroencephalography_(EEG)"/>
+        <rdfs:comment>Přenosné EEG monitory (Portable EEG Monitors) jsou lehká a kompaktní zařízení, která mohou být snadno přenesena a použita k záznamu elektrické aktivity mozku mimo nemocniční prostředí.</rdfs:comment>
+        <rdfs:label>Portable EEG Monitors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Dosage -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Portable_EMG_Monitors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Dosage">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Management"/>
-        <rdfs:comment>Tato třída zahrnuje informace o dávkování léků, aby byla zajištěna správná dávka a minimalizovaly se vedlejší účinky.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Portable_EMG_Monitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Electromyography_(EMG)"/>
+        <rdfs:comment>Přenosné EMG monitory (Portable EMG Monitors) jsou lehká a kompaktní zařízení, která mohou být snadno přenesena a použita k záznamu elektrické aktivity svalů mimo nemocniční prostředí.</rdfs:comment>
+        <rdfs:label>Portable EMG Monitors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Management -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Portable_Pulse_Oximeters -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Management">
-        <rdfs:comment>Tato třída zahrnuje všechny aspekty správy léčby, od dodržování léků po sledování vedlejších účinků a dávkování.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Portable_Pulse_Oximeters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Pulse_Oximeters"/>
+        <rdfs:comment>Přenosné pulzní oxymetry jsou malá a snadno přenosná zařízení, která lze snadno připevnit na prst pacienta a sledovat saturaci kyslíkem v reálném čase. Tyto oxymetry jsou ideální pro pacienty, kteří potřebují pravidelné sledování saturace kyslíkem, zejména v případě, že se pohybují v různých prostředích nebo jsou mobilní.</rdfs:comment>
+        <rdfs:label>Portable Pulse Oximeters</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Side_Effects -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Portable_Spirometers -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Side_Effects">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Management"/>
-        <rdfs:comment>Tato třída zahrnuje sledování a snižování vedlejších účinků léků pomocí technologií a metod monitorování.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Portable_Spirometers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Spirometers"/>
+        <rdfs:comment>Přenosné spirometry jsou malé, snadno přenosné zařízení, které umožňují pacientům měřit svou funkční kapacitu plic v pohodlí svého domova. Tento proces umožňuje lékařům monitorovat stav pacientů na dálku a snižuje nutnost častých návštěv v nemocnici.</rdfs:comment>
+        <rdfs:label>Portable Spirometers</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Mental_Health -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Posture_Correction_Devices -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Mental_Health">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Wellness_Management"/>
-        <rdfs:comment>Mental Health se zabývá sledováním a zlepšováním duševního zdraví pacientů. Tato třída zahrnuje sledování nálad, úzkosti a deprese, poskytování terapeutických opatření pro zlepšení psychického zdraví pacientů a předcházení psychickým poruchám. Sledování nálad a úzkosti může být prováděno pomocí dotazníků a dalších diagnostických nástrojů. Deprese může být sledována pomocí škál deprese a dalších diagnostických nástrojů. Pacientům mohou být poskytnuty terapeutické intervence jako je kognitivní chování terapie (CBT) nebo terapie zaměřená na řešení problémů (PST) k zlepšení psychického zdraví.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Posture_Correction_Devices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_And_Lifestyle_Monitoring_Devices"/>
+        <rdfs:label>Posture Correction Devices</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Monitoring -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Pulse_Oximeters -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Monitoring">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health"/>
-        <rdfs:comment>Nutriční monitorování se zaměřuje na sledování stravy a výživového stavu jedince. Tento typ monitorování zahrnuje sledování kalorického příjmu, množství tekutin, konzumaci živin a další faktory ovlivňující stravu a výživový stav. Tyto informace mohou být použity k zlepšení stravovacích návyků a podpoře zdravého životního stylu.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Pulse_Oximeters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Cardiovascular_Monitoring_Devices"/>
+        <rdfs:comment>Pulzní oxymetry jsou zařízení, která měří hladinu kyslíku v krvi a pulz pacienta. Tyto monitory jsou obvykle umístěny na prstu a používají světelné senzory k měření průtoku krve a hladiny kyslíku v krvi.</rdfs:comment>
+        <rdfs:label>Pulse Oximeters</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Radiation_Therapy_Machines -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking"/>
-        <rdfs:comment>Třídění a sledování výživových informací získaných od uživatele, včetně potravinových skupin, kalorického příjmu a množství spotřebované vody.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Radiation_Therapy_Machines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_And_Treatment_Monitoring_Devices"/>
+        <rdfs:comment>Radioterapie je léčebná metoda, při které jsou ionizující záření využívána k ničení rakovinných buněk nebo k zastavení jejich růstu. Radioterapeutické stroje jsou zařízení, která produkují a dávkují záření, aby se dosáhlo optimálního účinku na nádor a minimalizovalo se poškození okolního zdravého tkáně.
+
+Radioterapeutické stroje mohou být použity k různým typům radioterapie, včetně konvenční radioterapie, 3D konformální radioterapie (3D-CRT), intenzifikované modulované radioterapie (IMRT) a stereotaktické radioterapie (SRT). Každý typ radioterapie vyžaduje specifickou konfiguraci a nastavení stroje.
+
+Radioterapeutické stroje musí být pečlivě navrženy a sestaveny s ohledem na zajištění bezpečnosti pacienta a personálu. Při používání radioterapeutických strojů je nutné dodržovat přísné bezpečnostní protokoly a předpis, aby se minimalizovalo riziko nežádoucích účinků záření.</rdfs:comment>
+        <rdfs:label>Radiation Therapy Machines</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Oxygen_Saturation_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Rehabilitation_and_Physical_Therapy_Devices -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Oxygen_Saturation_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking"/>
-        <rdfs:comment>&quot;Oxygen Saturation Tracking&quot; (Sledování nasycení kyslíkem) zahrnuje průběžné monitorování hladiny kyslíku v krvi pomocí neinvazivních metod, jako jsou například pulzní oxymetry. Hladina nasycení kyslíkem je důležitým zdravotním ukazatelem, který odráží schopnost těla transportovat kyslík z plic do tkání. Pokles hladiny kyslíku může být známkou problémů s dýcháním nebo kardiovaskulárních onemocnění. Sledování hladiny kyslíku v krvi může pomoci při diagnostice a léčbě těchto zdravotních problémů a také při hodnocení celkového zdravotního stavu.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Rehabilitation_and_Physical_Therapy_Devices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_And_Lifestyle_Monitoring_Devices"/>
+        <rdfs:label>Rehabilitation and Physical Therapy Devices</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Fitness -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Respiratory_Monitoring_Devices -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Fitness">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Wellness_Management"/>
-        <rdfs:comment>Fyzická kondice se zabývá sledováním a zlepšováním fyzického zdraví pacientů. Tato třída zahrnuje sledování fyzické aktivity pacientů, jako jsou cvičení, sportování a jiné fyzické aktivity, sledování fyzické kondice, jako jsou kardiovaskulární zdraví, síla a flexibilita, a poskytování doporučení pro zlepšení fyzického zdraví pacientů. Sledování fyzické aktivity může být prováděno pomocí nositelných zařízení, jako jsou fitness náramky nebo chytré hodinky, nebo pomocí dotazníků a denních záznamů. Sledování fyzické kondice může být prováděno pomocí různých testů, jako jsou testy kardiovaskulárního zdraví, testy síly a testy flexibility. Pacientům mohou být poskytnuty doporučení pro zlepšení fyzického zdraví, jako jsou cvičení, zdravá strava a další zdravé návyky.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Respiratory_Monitoring_Devices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physiological_Monitoring_Devices"/>
+        <rdfs:comment>Dýchací monitorovací zařízení (Respiratory monitoring devices) jsou zařízení, která slouží k sledování různých aspektů dýchání pacienta a poskytují lékařům důležité informace o stavu plic a dýchacích cest.</rdfs:comment>
+        <rdfs:label>Respiratory Monitoring Devices</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Running_and_Exercise_Watches -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health">
-        <rdfs:comment>&quot;Physical Health&quot; (Fyzické zdraví) je třída ontologie &quot;Smart řešení pro monitorování zdraví&quot;, která se zabývá sledováním a hodnocením fyzického zdraví jedince. Patří sem například vitální znaky (včetně krevního tlaku, srdečního tepu a kyslíkové saturace), sledování fyzické aktivity a spánku, monitorování výživy a prostředí, a také sledování fyziologických signálů jako jsou EKG nebo EEG. Cílem této třídy je umožnit uživatelům sledovat a spravovat své fyzické zdraví a snižovat riziko vzniku chorob.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Running_and_Exercise_Watches">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_And_Lifestyle_Monitoring_Devices"/>
+        <rdfs:label>Running and Exercise Watches</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physiological_Signals -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sidestream_Capnography -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physiological_Signals">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health"/>
-        <rdfs:comment>Označuje třídu ontologie &quot;Smart řešení pro monitorování zdraví&quot;, která se vztahuje k sledování psychologických signálů. Tento typ monitorování může zahrnovat sběr dat o srdečním rytmu, elektrodermální aktivitě, dýchací frekvenci a dalších fyziologických změnách, které jsou spojeny se stavem emocionálního zdraví a pohody pacienta. Psychologické signály mohou poskytnout cenné informace pro diagnostiku a léčbu duševních poruch, jako je například deprese, úzkostné poruchy a stres. Tyto signály mohou být monitorovány pomocí různých senzorů a zařízení, jako jsou například EEG, ECG nebo senzory pohybu.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sidestream_Capnography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Capnography"/>
+        <rdfs:comment>Sidestream capnografie používá oddělený snímač, který sbírá vzorky CO2 z trubice pomocí malého hadičkového systému. Tento proces může trvat déle a být méně přesný než u mainstream capnografie, ale umožňuje větší flexibilitu při použití různých typů trubic.</rdfs:comment>
+        <rdfs:label>Sidestream Capnography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Predictive_Analytics -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Monitors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Predictive_Analytics">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Analysis"/>
-        <rdfs:comment>Analytický proces, který využívá historická data k predikci budoucích výsledků nebo chování.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Monitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_And_Lifestyle_Monitoring_Devices"/>
+        <rdfs:label>Sleep Monitors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Prescriptive_Analytics -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Smart_Clothing_with_Biometric_Sensors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Prescriptive_Analytics">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Analysis"/>
-        <rdfs:comment>Analytický proces, který využívá prediktivních modelů k určení nejlepších možných akcí nebo rozhodnutí v dané situaci.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Smart_Clothing_with_Biometric_Sensors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_And_Lifestyle_Monitoring_Devices"/>
+        <rdfs:label>Smart Clothing with Biometric Sensors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Respiratory_Rate_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Smart_Shoes_with_Gait_Analysis -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Respiratory_Rate_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking"/>
-        <rdfs:comment>Respirační frekvence sleduje počet dechů za minutu a pomáhá měřit, jak dobře fungují plíce a dýchací systém. Tento typ sledování může poskytnout informace o tom, zda existuje nějaká dysfunkce dýchacích cest, jako je například astma nebo chronická obstrukční plicní nemoc (COPD). Také může být užitečné pro monitorování stavu pacienta během anestezie nebo intenzivní péče. Sledování respirační frekvence může být prováděno pomocí různých metod, včetně manuálního počítání dechů, monitorování dýchání přes hrudní pás nebo pomocí senzorů umístěných na těle.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Smart_Shoes_with_Gait_Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_And_Lifestyle_Monitoring_Devices"/>
+        <rdfs:label>Smart Shoes with Gait Analysis</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Duration_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Smartwatches_with_Activity_Monitoring -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Duration_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Tracking"/>
-        <rdfs:comment>Tento typ monitorování se zaměřuje výhradně na délku spánku a sleduje, jak dlouho osoba spí každou noc. Sledování délky spánku může pomoci lékařům posoudit, zda pacienti dostatečně spí a zda trpí nějakými spánkovými poruchami.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Smartwatches_with_Activity_Monitoring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_And_Lifestyle_Monitoring_Devices"/>
+        <rdfs:label>Smartwatches with Activity Monitoring</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Monitoring -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Spirometers -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Monitoring">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health"/>
-        <rdfs:comment>&quot;Sleep Monitoring&quot; (Sledování spánku) je proces sběru, sledování a analýzy dat o spánku jedince. Pomocí senzorů a dalších technologií, které jsou integrovány do zařízení pro monitorování zdraví, mohou být sledovány různé parametry spánku, jako například délka spánku, časové úseky jednotlivých fází spánku, kvalita spánku a další. Tato data mohou být následně využita k posouzení kvality spánku a identifikaci případných poruch spánku, které by mohly mít negativní dopad na zdraví jedince.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Spirometers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Respiratory_Monitoring_Devices"/>
+        <rdfs:comment>Spirometrie je proces měření objemu vzduchu, který vdechujeme a vydechujeme. Tento proces je důležitý pro diagnostiku a monitorování respiračních chorob, jako jsou astma, chronická obstrukční plicní nemoc a další.</rdfs:comment>
+        <rdfs:label>Spirometers</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Quality_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Stationary_EEG_Monitors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Quality_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Tracking"/>
-        <rdfs:comment>Tento typ monitorování se zaměřuje na kvalitu spánku a poskytuje informace o tom, jak dobře osoba spí. Sledování kvality spánku může zahrnovat měření kvality spánku na základě počtu probuzení během noci, délky doby usínání a trvání REM spánku.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Stationary_EEG_Monitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Electroencephalography_(EEG)"/>
+        <rdfs:comment>Stacionární EEG monitory (Stationary EEG Monitors) jsou větší a sofistikovanější zařízení, která jsou obvykle používána v nemocničním prostředí.</rdfs:comment>
+        <rdfs:label>Stationary EEG Monitors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Stage_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Stationary_EMG_Monitors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Stage_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Tracking"/>
-        <rdfs:comment>Tento typ monitorování sleduje, jak dlouho osoba stráví v jednotlivých fázích spánku, jako je například rychlý pohyb očí (REM) nebo hluboký spánek. Sledování fází spánku může poskytnout informace o kvalitě spánku a pomoci lékařům diagnostikovat spánkové poruchy.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Stationary_EMG_Monitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Electromyography_(EMG)"/>
+        <rdfs:comment>Stacionární EMG monitory (Stationary EMG Monitors) jsou větší a sofistikovanější zařízení, která jsou obvykle používána v nemocničním prostředí.</rdfs:comment>
+        <rdfs:label>Stationary EMG Monitors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Stationary_Spirometers -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking"/>
-        <rdfs:comment>Tento typ monitorování zahrnuje sběr dat týkajících se spánku a jeho kvality. Sledování spánku může zahrnovat monitorování doby spánku, hloubky spánku a počtu probuzení během noci.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Stationary_Spirometers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Spirometers"/>
+        <rdfs:comment>Stacionární spirometry jsou větší zařízení, která se obvykle nacházejí v nemocničních prostorách a slouží k přesnějšímu měření objemu vzduchu v plicích a dalších respiračních funkcí.</rdfs:comment>
+        <rdfs:label>Stationary Spirometers</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Step_Tracking -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Tabletop_Pulse_Oximeters -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Step_Tracking">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Tracking"/>
-        <rdfs:label xml:lang="en">Step Tracking</rdfs:label>
-        <rdfs:comment>Sledování počtu kroků, které uživatelé udělají během své pohybové aktivity. Tato data mohou být použita k měření účinnosti cvičebního plánu a k poskytnutí doporučení pro zlepšení výkonu.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Tabletop_Pulse_Oximeters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Pulse_Oximeters"/>
+        <rdfs:comment>Stolní pulzní oxymetry jsou větší a robustnější verze oxymetrů, které se používají v klinickém prostředí nebo v nemocnicích. Tyto zařízení jsou obvykle vybavena displejem a umožňují sledovat nejen saturaci kyslíkem, ale také srdeční tep a další parametry dýchání. Tyto oxymetry jsou ideální pro nemocnice a kliniky, kde se pacienti podrobuji přesnému sledování a vyhodnocení svého zdravotního stavu.</rdfs:comment>
+        <rdfs:label>Tabletop Pulse Oximeters</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Stress_Management -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Temperature_Monitoring_Devices -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Stress_Management">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Wellness_Management"/>
-        <rdfs:comment>Stresový management je proces, který pomáhá jednotlivcům lépe zvládat stres a zlepšovat jejich duševní a fyzické zdraví. Tato kategorie v ontologii &quot;Smart solutions for health monitoring&quot; zahrnuje nástroje a technologie, které umožňují monitorování a správu stresu. Mezi tyto nástroje patří například senzory pro sledování srdečního rytmu, dýchání a elektrodermální aktivity, které pomáhají identifikovat stresové situace. K dispozici jsou také aplikace a platformy pro zvládání stresu, které poskytují cvičení a strategie pro snížení stresu, jako jsou meditace, hluboké dýchání a vizualizace. Tyto nástroje mohou být integrovány do většího systému pro správu zdraví, aby se jednotlivcům poskytla ucelená řešení pro sledování a zlepšování jejich celkového zdraví a pohody.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Temperature_Monitoring_Devices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Monitoring_Devices"/>
+        <rdfs:comment>&quot;Zařízení pro sledování teploty&quot; (anglicky &quot;Temperature monitoring devices&quot;) jsou elektronická zařízení používaná k měření teploty různých prostředí, včetně teploty těla člověka. Tyto zařízení jsou často používána v zdravotnických zařízeních, jako jsou nemocnice, kliniky a lékárny, ale také v průmyslu a v domácnostech.
+
+Mezi zařízení pro sledování teploty patří například digitální teploměry, které se nejčastěji používají k měření teploty těla. Tyto teploměry mohou být orální, axiální nebo rektální a umožňují rychlé a přesné měření teploty těla. Dalšími příklady zařízení pro sledování teploty jsou například bezdotykové teploměry, které mohou být použity k měření teploty bez kontaktu s povrchem, nebo teplotní senzory, které jsou využívány v průmyslových procesech pro sledování teploty.
+
+Zařízení pro sledování teploty mohou být také používána k monitorování teploty pacientů během operací a v průběhu hospitalizace. Tyto přístroje umožňují zdravotnickému personálu monitorovat a řídit tělesnou teplotu pacientů, což je důležité pro prevenci komplikací a rychlé zotavení.
+
+V průmyslových a výrobních procesech jsou zařízení pro sledování teploty důležitými nástroji pro monitorování teploty v různých fázích výroby a včasné zjištění možných problémů. V domácnostech se pak mohou zařízení pro sledování teploty používat například k monitorování teploty v mrazničce a chladničce, což pomáhá zachovat kvalitu potravin.
+
+Zařízení pro sledování teploty jsou tedy důležitými nástroji v různých oblastech a pomáhají zajistit bezpečnost a kvalitu produktů a péče o pacienty.</rdfs:comment>
+        <rdfs:label>Temperature Monitoring Devices</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#TestClass -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Wearable_Fitness_Trackers -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#TestClass"/>
-    
-
-
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Treatment_Recommendations -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Treatment_Recommendations">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Decision_Support"/>
-        <rdfs:comment>Doporučení pro nejlepší způsob léčby, které jsou vytvořeny na základě analýzy dat a informací o zdraví a wellness konkrétní osoby.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Wearable_Fitness_Trackers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_And_Lifestyle_Monitoring_Devices"/>
+        <rdfs:label>Wearable Fitness Trackers</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Vital_Signs -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#12-Lead_EKG_Monitors -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Vital_Signs">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health"/>
-        <rdfs:comment>Fyziologické signály - Tato kategorie zahrnuje sledování fyziologických signálů, jako jsou elektrokardiogram (EKG), elektroencefalogram (EEG), elektromyogram (EMG) a další, aby se získaly informace o fungování různých orgánů v těle.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#12-Lead_EKG_Monitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#EKG_Monitors"/>
+        <rdfs:comment>12-odvodové EKG monitory jsou pokročilejší verze EKG monitorů, které umožňují zaznamenávat elektrickou aktivitu srdce v 12 různých polohách. To umožňuje lékařům získat podrobnější a přesnější informace o srdečním stavu pacienta.</rdfs:comment>
+        <rdfs:label>12-Lead EKG Monitors</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Wellness_Management -->
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Electroencephalography_(EEG) -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Wellness_Management">
-        <rdfs:comment>Wellness Management se zabývá sledováním a zlepšováním celkového zdraví a blahobytu pacientů. Tato třída zahrnuje monitorování stresu, duševního zdraví a fyzické kondice pacientů. Sledování stresu může zahrnovat sledování hladin kortizolu v těle a poskytování doporučení pro jeho snížení. Duševní zdraví může být sledováno pomocí sledování nálad, úzkosti a deprese a poskytování terapeutických opatření pro zlepšení psychického zdraví pacientů. Fyzická kondice pacientů může být sledována pomocí sledování pravidelné fyzické aktivity, sledování stravy a poskytování doporučení pro zlepšení fyzické kondice pacientů.</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Electroencephalography_(EEG)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Neurological_Monitoring_Devices"/>
+        <rdfs:comment>Elektroencefalografie (EEG) je diagnostický test, který měří elektrickou aktivitu mozku.</rdfs:comment>
+        <rdfs:label>Elektroencephalography - EEG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Electromyography_(EMG) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Electromyography_(EMG)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Neurological_Monitoring_Devices"/>
+        <rdfs:comment>EMG monitory jsou zařízení určená pro monitorování elektrické aktivity svalů. Tyto monitory se používají pro diagnostiku a sledování různých poruch svalů, jako jsou například poruchy pohybového ústrojí, neurologická onemocnění a podobně. EMG monitory mohou být stacionární, umístěné na stole, nebo přenosné, což umožňuje monitorování svalové aktivity během různých činností a pohybů.</rdfs:comment>
+        <rdfs:label>Electromyography - EMG</rdfs:label>
     </owl:Class>
     
 
@@ -488,25 +596,19 @@
 
     <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#HeartRate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#HeartRate">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#TestClass"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#HeartRate"/>
     
 
 
     <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#JohnDoe -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#JohnDoe">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#TestClass"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#JohnDoe"/>
     
 
 
     <!-- http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#TestClass"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition"/>
     
 
 
@@ -521,106 +623,20 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Monitoring"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Environmental_Monitoring"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Monitoring"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physiological_Signals"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Monitoring"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Vital_Signs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_And_Lifestyle_Monitoring_Devices"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_And_Treatment_Monitoring_Devices"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Pain_And_Rehabilitation_Monitoring_Devices"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physiological_Monitoring_Devices"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Temperature_Monitoring_Devices"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Activity_Tracking"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Analytics"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Metrics_Tracking"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Nutrition_Tracking"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Tracking"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Automatic_Notification"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Response_Buttons"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#GPS_Tracking"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Blood_Pressure_Tracking"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Body_Temperature_Tracking"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Heart_Rate_Tracking"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Oxygen_Saturation_Tracking"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Respiratory_Rate_Tracking"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Calorie_Tracking"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Distance_Tracking"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Step_Tracking"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Analysis"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Decision_Support"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Emergency_Response"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Data_Visualization"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Predictive_Analytics"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Prescriptive_Analytics"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Environmental_Exposure"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Genetic_Predisposition"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Lifestyle_Factors"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Risk_Assessment"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Health_Tracking"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Management"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Health"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Wellness_Management"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Adherence"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Dosage"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Medication_Side_Effects"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Mental_Health"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Physical_Fitness"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Stress_Management"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Duration_Tracking"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Quality_Tracking"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Sleep_Stage_Tracking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Ambient_Temperature_Monitors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Contact_Temperature_Monitors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Implantable_Temperature_Monitors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2023/2/smartHealth#Non-Contact_Temperature_Monitors"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
