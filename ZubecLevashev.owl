@@ -24,7 +24,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Akcelerometr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Akcelerometr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Diagnostika"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
     </owl:Class>
     
 
@@ -69,6 +69,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CasoveVyuziti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CasoveVyuziti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Celorocni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Celorocni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CasoveVyuziti"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Celosvetove -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Celosvetove">
@@ -77,10 +93,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CenovaUroven -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CenovaUroven">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CholesterolMetr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CholesterolMetr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Diagnostika"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
     </owl:Class>
     
 
@@ -88,7 +112,20 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ChytraDomaciVaha -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ChytraDomaciVaha">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DefinableClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment xml:lang="cs">Osobní váha se schopnotí měření váhy, množství tuku i tukuprosté hmoty v jednotlivých částech těla.
+Využití je jak v rámci lékařských ordinací, tak v domácím prostředí.
+Její využítí je určeno pro osoby s problémem a nutností kontroly nadváhy a nebo pro sportovní využití pro kontrolu stavu sportovce a pomoc při nastavování dalšího treninkového plánu.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ChytryUsniTeplomer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ChytryUsniTeplomer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment xml:lang="cs">Vybaveni pro domáci i profesionální použití.
+Teploměr měří teplotu v úšním boltci a je schopen měnit barvu displaye podle naměřene teploty a pomoci tak určit standardní teplotu, zvýšenu nebo život ohrožující stav.</rdfs:comment>
     </owl:Class>
     
 
@@ -96,7 +133,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CisticOcnichCocek -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CisticOcnichCocek">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Hygiena"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#HygienickeVybaveni"/>
     </owl:Class>
     
 
@@ -104,7 +141,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CisticVody -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CisticVody">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Hygiena"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#HygienickeVybaveni"/>
     </owl:Class>
     
 
@@ -134,15 +171,35 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DetskyChytryZubniKartacek -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DetskyChytryZubniKartacek">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DefinableClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment xml:lang="cs">Vybaveni pro dentalni hygienu s určením pro děti.
+Kartáček je schopen diky akceleromentru monitorovat čas a intenzitu čištění zůbů a danou informaci přenášet prostřednictvím bluetooth připojení do mobilní aplikace.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Diagnostika -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DetskyMonitorDechu -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Diagnostika">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pristroj"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DetskyMonitorDechu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment xml:lang="cs">Dětsky monitor dechu.
+Využíván pro monitoring dechu novorozenců a eliminaci, či snížení procenta úmrtí v důsledku syndromu Náhlého Úmrtí</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PristrojoveVybaveni"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickySoftware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickySoftware">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SoftwaroveVybaveni"/>
     </owl:Class>
     
 
@@ -150,15 +207,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Dializer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Dializer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Terapie"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Domaci -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Domaci">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Urceni"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TerapeutickeVybaveni"/>
     </owl:Class>
     
 
@@ -166,7 +215,9 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciCisticVzduchu -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciCisticVzduchu">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DefinableClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment xml:lang="cs">Přístroj je určen pro zlepšení parametrů čistoty vzduchu a snížení množství prachu v ovzduší.
+Svoje využití najde primárně v městské zástavbě a dalších oblastech zasažených například rozsáhnou prumyslovou výrobou</rdfs:comment>
     </owl:Class>
     
 
@@ -174,7 +225,18 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciDializacniJednotka -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciDializacniJednotka">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DefinableClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment xml:lang="cs">Lekarske vybaveni pro podporu léčby chybné funkce ledvin, či pro pacienty čekající na jejich transplantaci.
+Vybavení je určeno pro použití v domácím prostředí a snižení náporu na profesionální dializační jednotky využívané v prostředí nemocnic</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciElektroStimulator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciElektroStimulator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment xml:lang="cs">Přístroj pro domácí použítí, sloužící k elektrické simulaci nervových zakončení přes kuži a snížení svalových bolestí v různých částech těla.</rdfs:comment>
     </owl:Class>
     
 
@@ -182,15 +244,17 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciLecba -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciLecba">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Zamereni"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZpusobPouziti"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciMericTlaku -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciTonometr -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciMericTlaku">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DefinableClass"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciTonometr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment>Vybavení určené pro domácí využítí, sloužící pro kontrolu krevního tlaku.
+Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše jako kontrolní mechanismus u osob trpících problémy krevního oběhu.</rdfs:comment>
     </owl:Class>
     
 
@@ -203,18 +267,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Ekonomicka -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Ekonomicka">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Zivotnost"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Encefalogram -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Encefalogram">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Diagnostika"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
     </owl:Class>
     
 
@@ -227,6 +283,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#FyzickeVybaveni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#FyzickeVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DefinableClass"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Gastrointestialni -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Gastrointestialni">
@@ -235,18 +299,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Hmotny -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#HygienickeVybaveni -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Hmotny">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Hygiena -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Hygiena">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pristroj"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#HygienickeVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PristrojoveVybaveni"/>
     </owl:Class>
     
 
@@ -262,7 +318,15 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Ionizer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Ionizer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Hygiena"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#HygienickeVybaveni"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#JaroAzPodzim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#JaroAzPodzim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CasoveVyuziti"/>
     </owl:Class>
     
 
@@ -270,7 +334,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#KapacitaPlic -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#KapacitaPlic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Trenink"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TreninkoveVybaveni"/>
     </owl:Class>
     
 
@@ -286,15 +350,15 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Laser -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Laser">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Terapie"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TerapeutickeVybaveni"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#LekarskeOrdinace -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Leto -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#LekarskeOrdinace">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Urceni"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Leto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CasoveVyuziti"/>
     </owl:Class>
     
 
@@ -302,7 +366,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Luzko -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Luzko">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pomocny"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PomocneVybaveni"/>
     </owl:Class>
     
 
@@ -310,7 +374,17 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Magnetoterapie -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Magnetoterapie">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Terapie"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TerapeutickeVybaveni"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MasazniPistole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MasazniPistole">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment xml:lang="cs">Pomocný přístroj sloužící k masírování a uvolnění svalů.
+Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití</rdfs:comment>
     </owl:Class>
     
 
@@ -318,7 +392,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MasazniPristroj -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MasazniPristroj">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pomocny"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TerapeutickeVybaveni"/>
     </owl:Class>
     
 
@@ -334,15 +408,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MechanickaRuka -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MechanickaRuka">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Terapie"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MericiSoftware -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MericiSoftware">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Nehmotny"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TerapeutickeVybaveni"/>
     </owl:Class>
     
 
@@ -369,26 +435,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MístoVyuziti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MístoVyuziti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Ne -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Ne">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Patentovano"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Nehmotny -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Nehmotny">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#NemocniceAKliniky -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#NemocniceAKliniky">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Urceni"/>
     </owl:Class>
     
 
@@ -401,70 +459,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O1 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O1">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OdpisovaTrida"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O10 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O10">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OdpisovaTrida"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O12 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O12">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OdpisovaTrida"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O15 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O15">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OdpisovaTrida"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O2 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O2">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OdpisovaTrida"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O3 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O3">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OdpisovaTrida"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O5 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O5">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OdpisovaTrida"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O8 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O8">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OdpisovaTrida"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Obvaz -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Obvaz">
@@ -473,18 +467,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OdpisovaTrida -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OdpisovaTrida">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OperacniSystem -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OperacniSystem">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Nehmotny"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SoftwaroveVybaveni"/>
     </owl:Class>
     
 
@@ -492,7 +478,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Optometr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Optometr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Diagnostika"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
     </owl:Class>
     
 
@@ -500,15 +486,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Orteza -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Orteza">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pomocny"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Osobni -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Osobni">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Urceni"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PomocneVybaveni"/>
     </owl:Class>
     
 
@@ -516,15 +494,16 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniGlukomer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniGlukomer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DefinableClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment xml:lang="cs">Přístroj sloužící k dlouhodobému měření množství cukru v krvi pacienta trpícího cukrovkou</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniMasazniPistole -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniLekarskeVybaveni -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniMasazniPistole">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DefinableClass"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniLekarskeVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZpusobPouziti"/>
     </owl:Class>
     
 
@@ -532,7 +511,10 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniOxymetr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniOxymetr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DefinableClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment xml:lang="cs">Osobní přístroj sloužící k dlouhodobému měření množství kyslíku v krvi.
+Využiván je pacienty trpícími nemocemi krevního oběhu. 
+Jeho napojení na mobilní aplikaci umožní upozorňit jeho uživatele, případně prostřednictvím mobilního napojení i nouzový kontakt na snižení hodnoty kyslíku pod kritickou mez.</rdfs:comment>
     </owl:Class>
     
 
@@ -540,7 +522,18 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniSportestr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniSportestr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DefinableClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment xml:lang="cs">Osobní vybavení, sloužící pro monitoring základních telesných funkcí jako je okysličování krve, tepová frekvence i mnoha sportovních hodnot jako délka kroku, rychlost běhu, či jízdy na kole, nebo plavání, kadence kroků, rychlost šlapání, a mnoha dalším</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobníVodniFiltr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobníVodniFiltr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment xml:lang="cs">Filtr pro přípravu pitné vody v prostředí, kde nezávadná pitná voda není k dispozici
+Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:comment>
     </owl:Class>
     
 
@@ -548,15 +541,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Otuzilost -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Otuzilost">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Trenink"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OutdoorFiltraceVody -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OutdoorFiltraceVody">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DefinableClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TreninkoveVybaveni"/>
     </owl:Class>
     
 
@@ -564,7 +549,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OxyMetr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OxyMetr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Diagnostika"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
     </owl:Class>
     
 
@@ -585,18 +570,26 @@
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pomocny -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Poloprofesionalni -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pomocny">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Hmotny"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Poloprofesionalni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CenovaUroven"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pouziti -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PomocneVybaveni -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pouziti">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PomocneVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#FyzickeVybaveni"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PouzitiBezOmezeni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PouzitiBezOmezeni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MístoVyuziti"/>
     </owl:Class>
     
 
@@ -604,7 +597,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PowerMeter -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PowerMeter">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Diagnostika"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
     </owl:Class>
     
 
@@ -615,10 +608,29 @@
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pristroj -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PristrojoveVybaveni -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pristroj">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Hmotny"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PristrojoveVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#FyzickeVybaveni"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Profesionalni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Profesionalni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CenovaUroven"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniCyklistickyPowerMeter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniCyklistickyPowerMeter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment xml:lang="cs">Cyklistické pedály Garmin, vybavené měřičem okamžitého výkonu cyklisty.
+Vybavení je určeno k poloprofesionálnímu, nebo profesionálnímu tréninku.
+Spolu se softwarovým vybavením slouží k nastavení správných tréninkových dávek a intenzit tréninkové zátěže</rdfs:comment>
     </owl:Class>
     
 
@@ -626,7 +638,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniLecba -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniLecba">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Zamereni"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZpusobPouziti"/>
     </owl:Class>
     
 
@@ -634,7 +646,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Rentgen -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Rentgen">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Diagnostika"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
     </owl:Class>
     
 
@@ -642,7 +654,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Rychlost -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Rychlost">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Trenink"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TreninkoveVybaveni"/>
     </owl:Class>
     
 
@@ -655,18 +667,26 @@
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Sonograf -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SoftwaroveVybaveni -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Sonograf">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Diagnostika"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SoftwaroveVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DefinableClass"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Sport -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Sonograf -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Sport">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Zamereni"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Sonograf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SportovniVybaveni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SportovniVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZpusobPouziti"/>
     </owl:Class>
     
 
@@ -674,7 +694,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SpotrebniMaterial -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SpotrebniMaterial">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Hmotny"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#FyzickeVybaveni"/>
     </owl:Class>
     
 
@@ -682,7 +702,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SrdecniMonitor -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SrdecniMonitor">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Diagnostika"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
     </owl:Class>
     
 
@@ -690,7 +710,25 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#StacionarniCyklotrenazer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#StacionarniCyklotrenazer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DefinableClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment>Stacionarni cyklotrenažer, sloužící k vytrvalostní přípravě cyklistů a triatlonistů.
+Primární využití je v zimní části sezony</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SterilniProstredi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SterilniProstredi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MístoVyuziti"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Stredni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Stredni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CenovaUroven"/>
     </owl:Class>
     
 
@@ -703,42 +741,34 @@
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Technicka -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Technicka">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Zivotnost"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Teplomer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Teplomer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Diagnostika"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Terapie -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TerapeutickeVybaveni -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Terapie">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pristroj"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TerapeutickeVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PristrojoveVybaveni"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Trenink -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TreninkoveVybaveni -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Trenink">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pristroj"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TreninkoveVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PristrojoveVybaveni"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Urceni -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TreninkovySoftware -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Urceni">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TreninkovySoftware">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SoftwaroveVybaveni"/>
     </owl:Class>
     
 
@@ -746,7 +776,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vaha -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vaha">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Diagnostika"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
     </owl:Class>
     
 
@@ -759,10 +789,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#VenkovniPouziti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#VenkovniPouziti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MístoVyuziti"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vnejsi -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vnejsi">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pouziti"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZpusobAplikace"/>
     </owl:Class>
     
 
@@ -770,7 +808,15 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vnitrni -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vnitrni">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pouziti"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZpusobAplikace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#VnitrniPouziti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#VnitrniPouziti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MístoVyuziti"/>
     </owl:Class>
     
 
@@ -778,7 +824,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vrtacka -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vrtacka">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Terapie"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TerapeutickeVybaveni"/>
     </owl:Class>
     
 
@@ -786,23 +832,15 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vytrvalost -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vytrvalost">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Trenink"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TreninkoveVybaveni"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Zamereni -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Zakladni -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Zamereni">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZarucniDoba -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZarucniDoba">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Zakladni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CenovaUroven"/>
     </owl:Class>
     
 
@@ -815,9 +853,25 @@
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Zivotnost -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Zimni -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Zivotnost">
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Zimni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CasoveVyuziti"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZpusobAplikace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZpusobAplikace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZpusobPouziti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZpusobPouziti">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
     </owl:Class>
     
@@ -826,127 +880,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZubniKartacek -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZubniKartacek">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Hygiena"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#1Rok -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#1Rok">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZarucniDoba"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#10Let -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#10Let">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZarucniDoba"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#10Y -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#10Y">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Technicka"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#12Y -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#12Y">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Technicka"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#15Y -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#15Y">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Technicka"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#2R -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#2R">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Ekonomicka"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#2Roky -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#2Roky">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZarucniDoba"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#3R -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#3R">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Ekonomicka"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#4R -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#4R">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Ekonomicka"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#5Let -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#5Let">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZarucniDoba"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#5R -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#5R">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Ekonomicka"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#5Y -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#5Y">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Technicka"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#6Y -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#6Y">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Technicka"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#7Y -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#7Y">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Technicka"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#8Y -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#8Y">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Technicka"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#HygienickeVybaveni"/>
     </owl:Class>
     
 
@@ -965,7 +899,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#AIFIR_2000 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#AIFIR_2000">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OutdoorFiltraceVody"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobníVodniFiltr"/>
     </owl:NamedIndividual>
     
 
@@ -978,6 +912,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Beurer_Em_28 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Beurer_Em_28">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciElektroStimulator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Braun_IRT_6520 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Braun_IRT_6520">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ChytryUsniTeplomer"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Elite_Directo_XR -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Elite_Directo_XR">
@@ -986,10 +936,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Garmin_Rally_XC100 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Garmin_Rally_XC100">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniCyklistickyPowerMeter"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Ionic-CARE_Triton_X6 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Ionic-CARE_Triton_X6">
         <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciCisticVzduchu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Nanny_Baby_monitor_BM-02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Nanny_Baby_monitor_BM-02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DetskyMonitorDechu"/>
     </owl:NamedIndividual>
     
 
@@ -1013,7 +979,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SOLO_KSJ02 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SOLO_KSJ02">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniMasazniPistole"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MasazniPistole"/>
     </owl:NamedIndividual>
     
 
@@ -1045,7 +1011,7 @@
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Armfit_+ -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Armfit_+">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciMericTlaku"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciTonometr"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
