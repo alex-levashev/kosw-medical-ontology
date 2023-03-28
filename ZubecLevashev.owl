@@ -1,12 +1,308 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4/"
      xml:base="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeCenou -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeCenou">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máCenu"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeModelem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeModelem">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máModel"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeSpotřebitelný -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeSpotřebitelný">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeSpotřebitelnýU"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeSpotřebitelnýU -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeSpotřebitelnýU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeVyrobeno -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeVyrobeno">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVýrobce"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeZnačkou -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeZnačkou">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZnačku"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máCenu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máCenu">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máDobuPoužití -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máDobuPoužití">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máDobuPoužitíU"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máDobuPoužitíU -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máDobuPoužitíU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máModel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máModel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máMístoPoužití -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máMístoPoužití">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máMístoPoužitíU"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máMístoPoužitíU -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máMístoPoužitíU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPatent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPatent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPatentU"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPatentU -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPatentU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPohlaví -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPohlaví">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPohlavíU"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPohlavíU -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPohlavíU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPolohu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPolohu">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPolohuU"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPolohuU -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPolohuU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVýrobce -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVýrobce">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVěkovouKategorii -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVěkovouKategorii">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVěkovouKategoriiU"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVěkovouKategoriiU -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVěkovouKategoriiU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZnačku -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZnačku">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobPoužití -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobPoužití">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobPoužitíU"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobPoužitíU -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobPoužitíU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobVyužití -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobVyužití">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobVyužitíU"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobVyužitíU -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobVyužitíU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#EkonomickaZivotnost -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#EkonomickaZivotnost">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Slouží k popisu účetní odpisové třídy produktu nebo zařízení. Je to důležitá vlastnost pro finanční řízení a účetnictví, která umožňuje sledovat a zaznamenávat účetní odpisy aktiv.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TechnickaZivotnost -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TechnickaZivotnost">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Slouží k popisu očekávané technické životnosti produktu nebo zařízení. Je to důležitá vlastnost pro správu a údržbu technických zařízení.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#UcetniOdpisovaTrida -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#UcetniOdpisovaTrida">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Slouží k popisu očekávané ekonomické životnosti produktu nebo zařízení. Je to důležitá vlastnost pro řízení hospodářského využití prostředků a rozpočtování.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZarucniDoba -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZarucniDoba">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Slouží k popisu záruční doby produktu nebo zařízení. Je to často používaná vlastnost v oblasti obchodu a služeb.</rdfs:comment>
+    </owl:DatatypeProperty>
     
 
 
@@ -25,6 +321,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Akcelerometr">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
+        <rdfs:comment>Používá se k měření zrychlení a pohybu těla</rdfs:comment>
     </owl:Class>
     
 
@@ -41,6 +338,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Anestetikum">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SpotrebniMaterial"/>
+        <rdfs:comment>Používá se k utlumení bolesti během operace nebo jiných zdravotních zákroků</rdfs:comment>
     </owl:Class>
     
 
@@ -73,6 +371,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CasoveVyuziti">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+        <rdfs:comment>Časové využití: popisuje vhodné období pro použití výrobku (Celoroční, Jaro až podzim, Léto, Zimní)</rdfs:comment>
     </owl:Class>
     
 
@@ -97,6 +396,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CenovaUroven">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+        <rdfs:comment>Cenová úroveň: popisuje cenovou kategorii výrobku (Poloprofesionální, Profesionální, Střední, Základní)</rdfs:comment>
     </owl:Class>
     
 
@@ -105,6 +405,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CholesterolMetr">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
+        <rdfs:comment>Používá se k měření hladiny cholesterolu v krvi</rdfs:comment>
     </owl:Class>
     
 
@@ -134,6 +435,7 @@ Teploměr měří teplotu v úšním boltci a je schopen měnit barvu displaye p
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CisticOcnichCocek">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#HygienickeVybaveni"/>
+        <rdfs:comment>Používá se k čištění kontaktních čoček</rdfs:comment>
     </owl:Class>
     
 
@@ -142,6 +444,7 @@ Teploměr měří teplotu v úšním boltci a je schopen měnit barvu displaye p
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#CisticVody">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#HygienickeVybaveni"/>
+        <rdfs:comment>Jedná se o zařízení, které slouží k čištění a úpravě pitné vody</rdfs:comment>
     </owl:Class>
     
 
@@ -156,6 +459,7 @@ Teploměr měří teplotu v úšním boltci a je schopen měnit barvu displaye p
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Desinfekce">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SpotrebniMaterial"/>
+        <rdfs:comment>Používá se k dezinfekci různých povrchů a materiálů v lékařských zařízeních</rdfs:comment>
     </owl:Class>
     
 
@@ -192,6 +496,7 @@ Využíván pro monitoring dechu novorozenců a eliminaci, či snížení procen
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PristrojoveVybaveni"/>
+        <rdfs:comment>Používá se k diagnostice zdravotního stavu pacienta</rdfs:comment>
     </owl:Class>
     
 
@@ -200,6 +505,7 @@ Využíván pro monitoring dechu novorozenců a eliminaci, či snížení procen
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickySoftware">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SoftwaroveVybaveni"/>
+        <rdfs:comment>Jedná se o softwarové aplikace, které umožňují diagnostiku různých onemocnění a poskytují lékařům informace o stavu pacienta. Mezi takové aplikace patří například software pro analýzu zobrazovacích metod (CT, MRI, ultrazvuk apod.) nebo pro analýzu biochemických dat.</rdfs:comment>
     </owl:Class>
     
 
@@ -208,6 +514,7 @@ Využíván pro monitoring dechu novorozenců a eliminaci, či snížení procen
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Dializer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TerapeutickeVybaveni"/>
+        <rdfs:comment>Používá se k čištění krve pacienta s chronickým selháním ledvin</rdfs:comment>
     </owl:Class>
     
 
@@ -241,10 +548,28 @@ Vybavení je určeno pro použití v domácím prostředí a snižení náporu n
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciElektroencefalograf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciElektroencefalograf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment>Přístroj, který měří elektrickou aktivitu mozku</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciLecba -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciLecba">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZpusobPouziti"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciSpirometr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciSpirometr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment>Přístroj, který měří objem plic a sleduje dechové kapacity</rdfs:comment>
     </owl:Class>
     
 
@@ -271,6 +596,7 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Encefalogram">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
+        <rdfs:comment>Používá se k záznamu elektrické aktivity mozku</rdfs:comment>
     </owl:Class>
     
 
@@ -287,6 +613,7 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#FyzickeVybaveni">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DefinableClass"/>
+        <rdfs:comment>Fyzické vybavení je třída, která zahrnuje různé druhy vybavení používané v lékařství a zdravotnictví.</rdfs:comment>
     </owl:Class>
     
 
@@ -303,6 +630,7 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#HygienickeVybaveni">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PristrojoveVybaveni"/>
+        <rdfs:comment>Používá se k udržování čistoty a hygieny v lékařských zařízeních</rdfs:comment>
     </owl:Class>
     
 
@@ -319,6 +647,7 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Ionizer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#HygienickeVybaveni"/>
+        <rdfs:comment>Používá se k čištění vzduchu od prachu a alergenů</rdfs:comment>
     </owl:Class>
     
 
@@ -335,6 +664,7 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#KapacitaPlic">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TreninkoveVybaveni"/>
+        <rdfs:comment>Používá se k měření kapacity plic</rdfs:comment>
     </owl:Class>
     
 
@@ -343,6 +673,7 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Kapky">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SpotrebniMaterial"/>
+        <rdfs:comment>Používají se k léčbě očních nebo nosních problémů</rdfs:comment>
     </owl:Class>
     
 
@@ -351,6 +682,7 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Laser">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TerapeutickeVybaveni"/>
+        <rdfs:comment>Používá se k léčbě různých zdravotních problémů, jako jsou bolesti zad nebo záněty</rdfs:comment>
     </owl:Class>
     
 
@@ -367,6 +699,7 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Luzko">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PomocneVybaveni"/>
+        <rdfs:comment>Používá se k umístění pacienta, aby byl v bezpečí a pohodlí</rdfs:comment>
     </owl:Class>
     
 
@@ -375,6 +708,7 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Magnetoterapie">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TerapeutickeVybaveni"/>
+        <rdfs:comment>Používá se k léčbě bolesti, zánětu nebo poruchy spánku</rdfs:comment>
     </owl:Class>
     
 
@@ -393,6 +727,7 @@ Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MasazniPristroj">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TerapeutickeVybaveni"/>
+        <rdfs:comment>Používá se k uvolňování napětí a svalových křečí</rdfs:comment>
     </owl:Class>
     
 
@@ -401,6 +736,7 @@ Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Mast">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SpotrebniMaterial"/>
+        <rdfs:comment>Používá se k léčbě kůže a různých kožních onemocnění</rdfs:comment>
     </owl:Class>
     
 
@@ -409,6 +745,7 @@ Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MechanickaRuka">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TerapeutickeVybaveni"/>
+        <rdfs:comment>Používá se k podpoře nebo náhradě činnosti zraněné ruky</rdfs:comment>
     </owl:Class>
     
 
@@ -417,6 +754,7 @@ Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MistoProdeje">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+        <rdfs:comment>Místo prodeje: popisuje místo, kde je výrobek nabízen k prodeji (Amerika, Asie, Celosvětově, Evropa)</rdfs:comment>
     </owl:Class>
     
 
@@ -439,6 +777,7 @@ Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MístoVyuziti">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+        <rdfs:comment>Místo využití: popisuje prostředí, kde je výrobek vhodný k použití (Použití bez omezení, Sterilní prostředí, Venkovní použití, Vnitřní použití)</rdfs:comment>
     </owl:Class>
     
 
@@ -455,6 +794,7 @@ Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Nite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SpotrebniMaterial"/>
+        <rdfs:comment>Používají se k šití ran po operacích nebo jiných zákrocích</rdfs:comment>
     </owl:Class>
     
 
@@ -463,6 +803,7 @@ Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Obvaz">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SpotrebniMaterial"/>
+        <rdfs:comment>Jde o materiál, který se používá k obvazování rány nebo k podpoře svalů a kloubů</rdfs:comment>
     </owl:Class>
     
 
@@ -471,6 +812,7 @@ Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OperacniSystem">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SoftwaroveVybaveni"/>
+        <rdfs:comment>Jde o software, který umožňuje provozování počítačů a jiných zařízení v zdravotnických zařízeních. Kromě běžného provozu počítačů poskytuje i zabezpečení sítě a chrání data pacientů.</rdfs:comment>
     </owl:Class>
     
 
@@ -479,6 +821,7 @@ Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Optometr">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
+        <rdfs:comment>Používá se k měření zrakových schopností</rdfs:comment>
     </owl:Class>
     
 
@@ -487,6 +830,16 @@ Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Orteza">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PomocneVybaveni"/>
+        <rdfs:comment>Používá se k podpoře nebo ochraně poškozeného kloubu nebo končetiny.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniElektrokardiograf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniElektrokardiograf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment>Přístroj, který měří srdeční aktivitu a vytváří EKG záznam</rdfs:comment>
     </owl:Class>
     
 
@@ -519,11 +872,29 @@ Jeho napojení na mobilní aplikaci umožní upozorňit jeho uživatele, přípa
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniSpirometr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniSpirometr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment>Přístroj, který měří objem plic a sleduje dechové kapacity</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniSportestr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniSportestr">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
         <rdfs:comment xml:lang="cs">Osobní vybavení, sloužící pro monitoring základních telesných funkcí jako je okysličování krve, tepová frekvence i mnoha sportovních hodnot jako délka kroku, rychlost běhu, či jízdy na kole, nebo plavání, kadence kroků, rychlost šlapání, a mnoha dalším</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniUltrazvukovyPristroj -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniUltrazvukovyPristroj">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment>Přístroj, který pomocí ultrazvuku měří tukovou tkáň, svalovou hmotu a další údaje</rdfs:comment>
     </owl:Class>
     
 
@@ -542,6 +913,7 @@ Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:com
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Otuzilost">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TreninkoveVybaveni"/>
+        <rdfs:comment>Používá se k posilování imunitního systému pacienta</rdfs:comment>
     </owl:Class>
     
 
@@ -550,6 +922,7 @@ Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:com
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OxyMetr">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
+        <rdfs:comment>Používá se k měření hladiny kyslíku v krvi</rdfs:comment>
     </owl:Class>
     
 
@@ -558,6 +931,7 @@ Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:com
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Patentovano">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+        <rdfs:comment>Patentováno: značí, zda má výrobek patent (Ano, Ne)</rdfs:comment>
     </owl:Class>
     
 
@@ -566,6 +940,7 @@ Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:com
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Pohlavi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+        <rdfs:comment>Pohlaví: určuje pro jaké pohlaví je výrobek určen (Mužské, Ženské)</rdfs:comment>
     </owl:Class>
     
 
@@ -582,6 +957,7 @@ Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:com
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PomocneVybaveni">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#FyzickeVybaveni"/>
+        <rdfs:comment>Tato podtřída zahrnuje různé druhy vybavení, které pomáhají pacientům se zdravotními problémy</rdfs:comment>
     </owl:Class>
     
 
@@ -598,6 +974,7 @@ Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:com
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PowerMeter">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
+        <rdfs:comment>Používá se k měření výkonu a energie</rdfs:comment>
     </owl:Class>
     
 
@@ -612,6 +989,7 @@ Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:com
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PristrojoveVybaveni">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#FyzickeVybaveni"/>
+        <rdfs:comment>Tato podtřída obsahuje různé druhy diagnostického, hygienického, terapeutického a tréninkového vybavení.</rdfs:comment>
     </owl:Class>
     
 
@@ -635,6 +1013,15 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniEKGMonitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniEKGMonitor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment>Monitor srdeční aktivity, který se používá v nemocnicích a klinikách</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniLecba -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniLecba">
@@ -643,10 +1030,20 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniSpirometr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniSpirometr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment>Přístroj, který měří objem plic a sleduje dechové kapacity v rámci lékařské diagnostiky</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Rentgen -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Rentgen">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
+        <rdfs:comment>Používá se k zobrazování vnitřních orgánů a kostí pomocí rentgenového záření</rdfs:comment>
     </owl:Class>
     
 
@@ -655,6 +1052,7 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Rychlost">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TreninkoveVybaveni"/>
+        <rdfs:comment>Používá se k tréninku běhu nebo jiných rychlostních sportů</rdfs:comment>
     </owl:Class>
     
 
@@ -671,6 +1069,7 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SoftwaroveVybaveni">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DefinableClass"/>
+        <rdfs:comment>Tato třída zahrnuje různé druhy softwarového vybavení, které jsou používány v oblasti zdravotnictví. Tyto aplikace slouží k diagnostice, léčbě a prevenci různých onemocnění</rdfs:comment>
     </owl:Class>
     
 
@@ -679,6 +1078,7 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Sonograf">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
+        <rdfs:comment>Používá se k zobrazování vnitřních orgánů pomocí ultrazvukových vln</rdfs:comment>
     </owl:Class>
     
 
@@ -695,6 +1095,7 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SpotrebniMaterial">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#FyzickeVybaveni"/>
+        <rdfs:comment>ato podtřída obsahuje různé druhy materiálu, které se používají v lékařství a zdravotnictví</rdfs:comment>
     </owl:Class>
     
 
@@ -703,6 +1104,7 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SrdecniMonitor">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
+        <rdfs:comment>Používá se k měření srdečního tepu a rytmu</rdfs:comment>
     </owl:Class>
     
 
@@ -713,6 +1115,33 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
         <rdfs:comment>Stacionarni cyklotrenažer, sloužící k vytrvalostní přípravě cyklistů a triatlonistů.
 Primární využití je v zimní části sezony</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#StacionarniEKGMonitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#StacionarniEKGMonitor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment>Ponitor srdeční aktivity, který se používá v nemocnicích a klinikách</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#StacionarniElektroencefalograf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#StacionarniElektroencefalograf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment>Přístroj, který měří elektrickou aktivitu mozku, používaný v lékařských zařízeních</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#StacionarniSpirometr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#StacionarniSpirometr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PrimitiveClass"/>
+        <rdfs:comment>Přístroj, který měří objem plic a sleduje dechové kapacity v rámci lékařské diagnostiky v nemocnicích a klinikách</rdfs:comment>
     </owl:Class>
     
 
@@ -737,6 +1166,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Svorky">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SpotrebniMaterial"/>
+        <rdfs:comment>Používají se k fixaci některých typů lékařských pomůcek nebo k zastavení krvácení</rdfs:comment>
     </owl:Class>
     
 
@@ -745,6 +1175,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Teplomer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
+        <rdfs:comment>Používá se k měření tělesné teploty</rdfs:comment>
     </owl:Class>
     
 
@@ -753,6 +1184,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TerapeutickeVybaveni">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PristrojoveVybaveni"/>
+        <rdfs:comment>Používá se k léčbě zdravotních problémů pacienta</rdfs:comment>
     </owl:Class>
     
 
@@ -761,6 +1193,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TreninkoveVybaveni">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#PristrojoveVybaveni"/>
+        <rdfs:comment>Používá se k trénování zdraví a kondice pacienta</rdfs:comment>
     </owl:Class>
     
 
@@ -769,6 +1202,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TreninkovySoftware">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#SoftwaroveVybaveni"/>
+        <rdfs:comment>Tyto aplikace slouží k tréninku a rehabilitaci pacientů. Mezi takové aplikace patří například software pro fyzioterapii, rehabilitaci po operaci, cvičení srdce nebo dechové cvičení. Software umožňuje sledování a vyhodnocování pokroku pacienta a poskytuje informace o efektivitě terapie.</rdfs:comment>
     </owl:Class>
     
 
@@ -777,6 +1211,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vaha">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DiagnostickeVybaveni"/>
+        <rdfs:comment>Používá se k měření hmotnosti pacienta</rdfs:comment>
     </owl:Class>
     
 
@@ -785,6 +1220,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#VekovaKategorie">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+        <rdfs:comment>Věková kategorie: popisuje věkovou kategorii pro použití výrobku (Bez omezení, Děti, Dospělí, Senioři)</rdfs:comment>
     </owl:Class>
     
 
@@ -825,6 +1261,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vrtacka">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TerapeutickeVybaveni"/>
+        <rdfs:comment>Používá se k odstraňování zubů nebo k odbourání kamenů v močovém měchýři</rdfs:comment>
     </owl:Class>
     
 
@@ -833,6 +1270,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vytrvalost">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#TreninkoveVybaveni"/>
+        <rdfs:comment>Používá se k tréninku výdrže při sportovních aktivitách</rdfs:comment>
     </owl:Class>
     
 
@@ -865,6 +1303,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZpusobAplikace">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+        <rdfs:comment>Způsob aplikace: popisuje způsob aplikace výrobku (Vnější, Vnitřní: Gastrointestinální, Intravenózní)</rdfs:comment>
     </owl:Class>
     
 
@@ -873,6 +1312,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZpusobPouziti">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ModifierClass"/>
+        <rdfs:comment>Způsob použití: popisuje způsob použití výrobku (Domácí léčba, Osobní lékařské vybavení, Profesionální léčba, Sportovní vybavení)</rdfs:comment>
     </owl:Class>
     
 
@@ -881,6 +1321,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ZubniKartacek">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#HygienickeVybaveni"/>
+        <rdfs:comment>Používá se k čištění zubů</rdfs:comment>
     </owl:Class>
     
 
@@ -936,6 +1377,23 @@ Primární využití je v zimní části sezony</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#GE_Healthcare_MAC_5500_HD_EKG_system -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#GE_Healthcare_MAC_5500_HD_EKG_system">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#StacionarniEKGMonitor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#GE_Healthcare_MAC_800_ECG_machine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#GE_Healthcare_MAC_800_ECG_machine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniEKGMonitor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#StacionarniEKGMonitor"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Garmin_Rally_XC100 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Garmin_Rally_XC100">
@@ -952,6 +1410,14 @@ Primární využití je v zimní části sezony</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Microlife_PF_100 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Microlife_PF_100">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciSpirometr"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Nanny_Baby_monitor_BM-02 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Nanny_Baby_monitor_BM-02">
@@ -960,10 +1426,42 @@ Primární využití je v zimní části sezony</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#NeuroSky_MindWave_Mobile_2_EEG_headset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#NeuroSky_MindWave_Mobile_2_EEG_headset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciElektroencefalograf"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Nihon_Kohden_Neurofax_EEG_machine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Nihon_Kohden_Neurofax_EEG_machine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#StacionarniElektroencefalograf"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O2_Ring -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#O2_Ring">
         <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniOxymetr"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Omron_HeartGuide_EKG_watch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Omron_HeartGuide_EKG_watch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniElektrokardiograf"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Roscoe_Medical_Ultrasonic_nebulizer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Roscoe_Medical_Ultrasonic_nebulizer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniUltrazvukovyPristroj"/>
     </owl:NamedIndividual>
     
 
@@ -1000,10 +1498,26 @@ Primární využití je v zimní části sezony</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vyaire_Medical_MasterScreen_PFT_spirometer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vyaire_Medical_MasterScreen_PFT_spirometer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniSpirometr"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#garmin_forerunner_6x_pro -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#garmin_forerunner_6x_pro">
         <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniSportestr"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#iSpO2_pulse_oximeter_and_spirometer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#iSpO2_pulse_oximeter_and_spirometer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniSpirometr"/>
     </owl:NamedIndividual>
     
 
@@ -1013,9 +1527,50 @@ Primární využití je v zimní části sezony</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Armfit_+">
         <rdf:type rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciTonometr"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ChytraDomaciVaha"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ChytryUsniTeplomer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DetskyChytryZubniKartacek"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DetskyMonitorDechu"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciCisticVzduchu"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciDializacniJednotka"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciElektroStimulator"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciElektroencefalograf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciSpirometr"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#DomaciTonometr"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#MasazniPistole"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniElektrokardiograf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniGlukomer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniOxymetr"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniSpirometr"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniSportestr"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobniUltrazvukovyPristroj"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#OsobníVodniFiltr"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniCyklistickyPowerMeter"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniEKGMonitor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#ProfesionalniSpirometr"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#StacionarniCyklotrenazer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#StacionarniEKGMonitor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#StacionarniElektroencefalograf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#StacionarniSpirometr"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
