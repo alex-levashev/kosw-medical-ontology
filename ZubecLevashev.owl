@@ -1430,7 +1430,6 @@ Primární využití je v zimní části sezony</rdfs:comment>
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#GE_Healthcare_MAC_800_ECG_machine -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#GE_Healthcare_MAC_800_ECG_machine">
-        <rdf:type rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniEKGMonitor"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#StacionarniEKGMonitor"/>
     </owl:NamedIndividual>
     
