@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4/"
      xml:base="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
@@ -21,235 +21,140 @@
     
 
 
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Stojí -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Stojí">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeCenou"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vyrábí -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#Vyrábí">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeVyroben"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeCenou -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeCenou">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máCenu"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeModelem -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeEkonomickouZivotnostiPro -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeModelem">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máModel"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeEkonomickouZivotnostiPro">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#maEkonomickouZivotnost"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeSpotřebitelný -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeMistemPouzitiPro -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeSpotřebitelný">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeSpotřebitelnýU"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeSpotřebitelnýU -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeSpotřebitelnýU">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeMistemPouzitiPro">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jePouzivan"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeVyrobeno -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jePatentovan -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeVyrobeno">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVýrobce"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jePatentovan">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#patentneChrani"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jePouzivan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jePouzivan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jePouzivanV -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jePouzivanV">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeZpusobUziti"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeProVekovouKategorii -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeProVekovouKategorii">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeVekovouKategorii"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeTechnickouZivotnostiPro -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeTechnickouZivotnostiPro">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#maTechnickouZivotnost"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeZnačkou -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeVekovouKategorii -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeZnačkou">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZnačku"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeVekovouKategorii">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máCenu -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeVyroben -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máCenu">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeVyroben"/>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máDobuPoužití -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeZarucniDobouPro -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máDobuPoužití">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máDobuPoužitíU"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máDobuPoužitíU -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máDobuPoužitíU">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeZarucniDobouPro">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZárucniDobu"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máModel -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeZpusobUziti -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máModel">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máMístoPoužití -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máMístoPoužití">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máMístoPoužitíU"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máMístoPoužitíU -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máMístoPoužitíU">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#jeZpusobUziti">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPatent -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#maEkonomickouZivotnost -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPatent">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPatentU"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#maEkonomickouZivotnost"/>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPatentU -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#maTechnickouZivotnost -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPatentU">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#maTechnickouZivotnost"/>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPohlaví -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZárucniDobu -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPohlaví">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPohlavíU"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZárucniDobu"/>
     
 
 
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPohlavíU -->
+    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#patentneChrani -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPohlavíU">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPolohu -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPolohu">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPolohuU"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPolohuU -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máPolohuU">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVýrobce -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVýrobce">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVěkovouKategorii -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVěkovouKategorii">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVěkovouKategoriiU"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVěkovouKategoriiU -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máVěkovouKategoriiU">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZnačku -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZnačku">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobPoužití -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobPoužití">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobPoužitíU"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobPoužitíU -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobPoužitíU">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobVyužití -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobVyužití">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobVyužitíU"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobVyužitíU -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#máZpůsobVyužitíU">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ondrejzubec/ontologies/2023/2/untitled-ontology-4#patentneChrani">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
     </owl:ObjectProperty>
     
@@ -1623,5 +1528,5 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
