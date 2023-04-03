@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/"
      xml:base="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
@@ -25,175 +25,191 @@ UHK</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeCenovouKategoriíPro -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeCenovouKategoriiPro -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeCenovouKategoriíPro">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeCenovouKategoriiPro">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeVCenoveKategorii"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CenovaKaregorie"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeMistemPouzitiPro -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeMistemPouzitiPro -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeMistemPouzitiPro">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeMistemPouzitiPro">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeMistneVyuzitelnyV"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MístoVyuziti"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeMistemVyziti -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeMistemProdejePro -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeMistemVyziti">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jePouzivanV"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeMistoProdeje -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeMistoProdeje">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#prodavaSe"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeObdobimPouziti -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeObdobimPouziti">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#puzivaSe"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jePatentovan -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jePatentovan">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeMistemProdejePro">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#patentneChrani"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jePeferovanymPohlavi -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jePeferovanymPohlavi">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#urcenProPohlavi"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MistoProdeje"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jePouzivanPri -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeMistneVyuzitelnyV -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jePouzivanPri">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeSpusobemVyuziti"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jePouzivanV -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jePouzivanV">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeProVekovouKategorii -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeProVekovouKategorii">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeVekovouKategorii"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeSoucasti -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeSoucasti">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#maCast"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeSpusobemVyuziti -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeSpusobemVyuziti">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeVCenoveKategorii -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeVCenoveKategorii">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeMistneVyuzitelnyV">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MístoVyuziti"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeVekovouKategorii -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeObdobimPouzitiPro -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeVekovouKategorii">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeObdobimPouzitiPro">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanVRocnimObdobi"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasovaVyuzitelnost"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePatentovan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePatentovan">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/patentneChrani"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Patentovano"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeZpusobemVyuzitiPro"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZpusobPouziti"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanVRocnimObdobi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanVRocnimObdobi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasovaVyuzitelnost"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePreferovanymPohlavimPro -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePreferovanymPohlavimPro">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Pohlavi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVekovouKategoriiPro"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#VekovaKategorie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeSoucasti -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeSoucasti">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/skladaSeZ"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ZpusobProvedeni"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Pohlavi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CenovaKaregorie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVekovouKategoriiPro -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVekovouKategoriiPro">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#VekovaKategorie"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#maCast -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeZpusobemVyuzitiPro -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#maCast">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#patentneChrani -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#patentneChrani">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeZpusobemVyuzitiPro">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZpusobPouziti"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#prodavaSe -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/patentneChrani -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#prodavaSe">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/patentneChrani">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Patentovano"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#puzivaSe -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#puzivaSe">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MistoProdeje"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#urcenProPohlavi -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/skladaSeZ -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#urcenProPohlavi">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/skladaSeZ">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ZpusobProvedeni"/>
     </owl:ObjectProperty>
     
 
@@ -319,6 +335,79 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
     
 
 
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/DomaciVybaveni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/DomaciVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/MonotitickeVybaveni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/MonotitickeVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ZpusobProvedeni"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/VicedilneVybaveni"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/OsobniVybaveni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/OsobniVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/OutdoorVybaveni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/OutdoorVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZpusobPouziti"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ProfesionalniVybaveni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ProfesionalniVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/SportovniVybaveni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/SportovniVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/UrcenoProDetskePacienty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/UrcenoProDetskePacienty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/VicedilneVybaveni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/VicedilneVybaveni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ZpusobProvedeni"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ZpusobProvedeni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ZpusobProvedeni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ModifierClass"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Akcelerometr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Akcelerometr">
@@ -332,6 +421,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Amerika">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MistoProdeje"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
     </owl:Class>
     
 
@@ -349,6 +439,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Ano">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Patentovano"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Ne"/>
     </owl:Class>
     
 
@@ -357,6 +448,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Asie">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MistoProdeje"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
     </owl:Class>
     
 
@@ -369,19 +461,11 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasoveVyuziti -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasovaVyuzitelnost -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasoveVyuziti">
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasovaVyuzitelnost">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ModifierClass"/>
         <rdfs:comment xml:lang="cs">Časové využití: popisuje vhodné období pro použití výrobku (Celoroční, Jaro až podzim, Léto, Zimní)</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celorocni -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celorocni">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasoveVyuziti"/>
     </owl:Class>
     
 
@@ -390,6 +474,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MistoProdeje"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Evropa"/>
     </owl:Class>
     
 
@@ -415,12 +500,83 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ChytraDomaciVaha -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ChytraDomaciVaha">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/DomaciVybaveni"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#maCast"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeMistneVyuzitelnyV"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PouzitiBezOmezeni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/SportovniVybaveni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniLekarskeVybaveni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#BezOmezeni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Poloprofesionalni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Stredni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/skladaSeZ"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Vaha"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">24</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Osobní váha se schopnotí měření váhy, množství tuku i tukuprosté hmoty v jednotlivých částech těla.
@@ -433,7 +589,72 @@ Její využítí je určeno pro osoby s problémem a nutností kontroly nadváhy
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ChytryUsniTeplomer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ChytryUsniTeplomer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/UrcenoProDetskePacienty"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciLecba"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniLecba"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Deti"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Stredni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zakladni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">24</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Vybaveni pro domáci i profesionální použití.
 Teploměr měří teplotu v úšním boltci a je schopen měnit barvu displaye podle naměřene teploty a pomoci tak určit standardní teplotu, zvýšenu nebo život ohrožující stav.</rdfs:comment>
     </owl:Class>
@@ -484,7 +705,52 @@ Teploměr měří teplotu v úšním boltci a je schopen měnit barvu displaye p
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DetskyChytryZubniKartacek -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DetskyChytryZubniKartacek">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/UrcenoProDetskePacienty"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Deti"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zakladni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Vybaveni pro dentalni hygienu s určením pro děti.
 Kartáček je schopen diky akceleromentru monitorovat čas a intenzitu čištění zůbů a danou informaci přenášet prostřednictvím bluetooth připojení do mobilní aplikace.</rdfs:comment>
     </owl:Class>
@@ -494,7 +760,91 @@ Kartáček je schopen diky akceleromentru monitorovat čas a intenzitu čištěn
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DetskyMonitorDechu -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DetskyMonitorDechu">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/UrcenoProDetskePacienty"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Amerika"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:qualifiedCardinality>
+                                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Evropa"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">12</owl:minQualifiedCardinality>
+                                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciLecba"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniLecba"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Deti"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Poloprofesionalni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Stredni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Dětsky monitor dechu.
 Využíván pro monitoring dechu novorozenců a eliminaci, či snížení procenta úmrtí v důsledku syndromu Náhlého Úmrtí</rdfs:comment>
     </owl:Class>
@@ -531,7 +881,52 @@ Využíván pro monitoring dechu novorozenců a eliminaci, či snížení procen
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciCisticVzduchu -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciCisticVzduchu">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/DomaciVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeMistneVyuzitelnyV"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#VnitrniPouziti"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciLecba"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Poloprofesionalni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Stredni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Asie"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">24</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Přístroj je určen pro zlepšení parametrů čistoty vzduchu a snížení množství prachu v ovzduší.
 Svoje využití najde primárně v městské zástavbě a dalších oblastech zasažených například rozsáhnou prumyslovou výrobou</rdfs:comment>
     </owl:Class>
@@ -541,7 +936,93 @@ Svoje využití najde primárně v městské zástavbě a dalších oblastech za
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciDializacniJednotka -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciDializacniJednotka">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/DomaciVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniLekarskeVybaveni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniLecba"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dospeli"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Seniori"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Profesionalni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Asie"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Evropa"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#EkonomickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">60</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#UcetniOdpisovaTrida"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Lekarske vybaveni pro podporu léčby chybné funkce ledvin, či pro pacienty čekající na jejich transplantaci.
 Vybavení je určeno pro použití v domácím prostředí a snižení náporu na profesionální dializační jednotky využívané v prostředí nemocnic</rdfs:comment>
     </owl:Class>
@@ -551,7 +1032,86 @@ Vybavení je určeno pro použití v domácím prostředí a snižení náporu n
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciElektroStimulator -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciElektroStimulator">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/DomaciVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciLecba"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniLekarskeVybaveni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dospeli"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Seniori"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Poloprofesionalni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Profesionalni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Amerika"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Asie"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">60</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Přístroj pro domácí použítí, sloužící k elektrické simulaci nervových zakončení přes kuži a snížení svalových bolestí v různých částech těla.</rdfs:comment>
     </owl:Class>
     
@@ -560,7 +1120,86 @@ Vybavení je určeno pro použití v domácím prostředí a snižení náporu n
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciElektroencefalograf -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciElektroencefalograf">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/DomaciVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniLekarskeVybaveni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniLecba"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dospeli"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Seniori"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Profesionalni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#EkonomickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">60</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#UcetniOdpisovaTrida"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Přístroj, který měří elektrickou aktivitu mozku</rdfs:comment>
     </owl:Class>
     
@@ -577,7 +1216,65 @@ Vybavení je určeno pro použití v domácím prostředí a snižení náporu n
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciSpirometr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciSpirometr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/DomaciVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniLekarskeVybaveni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#BezOmezeni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Poloprofesionalni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Stredni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">24</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Přístroj, který měří objem plic a sleduje dechové kapacity</rdfs:comment>
     </owl:Class>
     
@@ -586,7 +1283,72 @@ Vybavení je určeno pro použití v domácím prostředí a snižení náporu n
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciTonometr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciTonometr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/DomaciVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciLecba"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniLekarskeVybaveni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dospeli"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Seniori"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Stredni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">24</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Vybavení určené pro domácí využítí, sloužící pro kontrolu krevního tlaku.
 Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše jako kontrolní mechanismus u osob trpících problémy krevního oběhu.</rdfs:comment>
     </owl:Class>
@@ -645,10 +1407,10 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#JaroAzPodzim -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Jaro -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#JaroAzPodzim">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasoveVyuziti"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Jaro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasovaVyuzitelnost"/>
     </owl:Class>
     
 
@@ -683,7 +1445,7 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Leto -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Leto">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasoveVyuziti"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasovaVyuzitelnost"/>
     </owl:Class>
     
 
@@ -710,6 +1472,71 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MasazniPistole">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/SportovniVybaveni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciLecba"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#BezOmezeni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Stredni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zakladni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">24</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Pomocný přístroj sloužící k masírování a uvolnění svalů.
 Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití</rdfs:comment>
     </owl:Class>
@@ -763,6 +1590,7 @@ V poslední době je možné využít jak přímé ovládání mechanické paže
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Pohlavi"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
     </owl:Class>
     
 
@@ -832,7 +1660,86 @@ V poslední době je možné využít jak přímé ovládání mechanické paže
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniElektrokardiograf -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniElektrokardiograf">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/DomaciVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciLecba"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniLecba"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dospeli"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Seniori"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Profesionalni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Amerika"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Asie"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">36</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#UcetniOdpisovaTrida"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Přístroj, který měří srdeční aktivitu a vytváří EKG záznam</rdfs:comment>
     </owl:Class>
     
@@ -841,7 +1748,72 @@ V poslední době je možné využít jak přímé ovládání mechanické paže
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniGlukomer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniGlukomer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/OsobniVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniLekarskeVybaveni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dospeli"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Seniori"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Poloprofesionalni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zakladni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">12</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Přístroj sloužící k dlouhodobému měření množství cukru v krvi pacienta trpícího cukrovkou</rdfs:comment>
     </owl:Class>
     
@@ -858,7 +1830,65 @@ V poslední době je možné využít jak přímé ovládání mechanické paže
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniOxymetr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniOxymetr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/OsobniVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniLekarskeVybaveni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dospeli"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Seniori"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Stredni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Asie"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">12</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Osobní přístroj sloužící k dlouhodobému měření množství kyslíku v krvi.
 Využiván je pacienty trpícími nemocemi krevního oběhu. 
 Jeho napojení na mobilní aplikaci umožní upozorňit jeho uživatele, případně prostřednictvím mobilního napojení i nouzový kontakt na snižení hodnoty kyslíku pod kritickou mez.</rdfs:comment>
@@ -869,7 +1899,72 @@ Jeho napojení na mobilní aplikaci umožní upozorňit jeho uživatele, přípa
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniSpirometr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniSpirometr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/OsobniVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/SportovniVybaveni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniLecba"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#BezOmezeni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Poloprofesionalni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Stredni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">60</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Přístroj, který měří objem plic a sleduje dechové kapacity</rdfs:comment>
     </owl:Class>
     
@@ -878,17 +1973,159 @@ Jeho napojení na mobilní aplikaci umožní upozorňit jeho uživatele, přípa
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniSportestr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniSportestr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/SportovniVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Amerika"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:qualifiedCardinality>
+                                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Evropa"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">24</owl:minQualifiedCardinality>
+                                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/SportovniVybaveni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniLekarskeVybaveni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dospeli"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CenovaKaregorie"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Osobní vybavení, sloužící pro monitoring základních telesných funkcí jako je okysličování krve, tepová frekvence i mnoha sportovních hodnot jako délka kroku, rychlost běhu, či jízdy na kole, nebo plavání, kadence kroků, rychlost šlapání, a mnoha dalším</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniUltrazvukovyPristroj -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniUltrazvukovyNebulizer -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniUltrazvukovyPristroj">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
-        <rdfs:comment xml:lang="cs">Přístroj, který pomocí ultrazvuku měří tukovou tkáň, svalovou hmotu a další údaje</rdfs:comment>
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniUltrazvukovyNebulizer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/OsobniVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciLecba"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniLekarskeVybaveni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#BezOmezeni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Poloprofesionalni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Stredni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">36</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="cs">Přístroj, který pomocí ultrazvuku upravuje složení zvuku pro zlepšení kvality dechu lidí trpících astmatickými záchvaty</rdfs:comment>
     </owl:Class>
     
 
@@ -896,7 +2133,71 @@ Jeho napojení na mobilní aplikaci umožní upozorňit jeho uživatele, přípa
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobníVodniFiltr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobníVodniFiltr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/OsobniVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#EkonomickaZivotnost"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#EkonomickaZivotnost"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxQualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/OutdoorVybaveni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Stredni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zakladni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Filtr pro přípravu pitné vody v prostředí, kde nezávadná pitná voda není k dispozici
 Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:comment>
     </owl:Class>
@@ -926,6 +2227,14 @@ Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:com
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Patentovano">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ModifierClass"/>
         <rdfs:comment xml:lang="cs">Patentováno: značí, zda má výrobek patent (Ano, Ne)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Podzim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Podzim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasovaVyuzitelnost"/>
     </owl:Class>
     
 
@@ -975,80 +2284,7 @@ Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:com
 
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jePatentovan"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Patentovano"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jePouzivanPri"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZpusobPouziti"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jePouzivanV"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MístoVyuziti"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeProVekovouKategorii"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#VekovaKategorie"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#jeVCenoveKategorii"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CenovaKaregorie"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#prodavaSe"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MistoProdeje"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#puzivaSe"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasoveVyuziti"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#urcenProPohlavi"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Pohlavi"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#EkonomickaZivotnost"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#UcetniOdpisovaTrida"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
     
 
 
@@ -1072,7 +2308,67 @@ Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:com
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniCyklistickyPowerMeter -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniCyklistickyPowerMeter">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/SportovniVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/SportovniVybaveni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dospeli"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Poloprofesionalni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Profesionalni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Stredni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#EkonomickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">24</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#UcetniOdpisovaTrida"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Cyklistické pedály Garmin, vybavené měřičem okamžitého výkonu cyklisty.
 Vybavení je určeno k poloprofesionálnímu, nebo profesionálnímu tréninku.
 Spolu se softwarovým vybavením slouží k nastavení správných tréninkových dávek a intenzit tréninkové zátěže</rdfs:comment>
@@ -1083,7 +2379,93 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniEKGMonitor -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniEKGMonitor">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ProfesionalniVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciLecba"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniLecba"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dospeli"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Seniori"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Profesionalni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Amerika"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Evropa"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#EkonomickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">15</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">60</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#UcetniOdpisovaTrida"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Monitor srdeční aktivity, který se používá v nemocnicích a klinikách</rdfs:comment>
     </owl:Class>
     
@@ -1100,7 +2482,79 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniSpirometr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniSpirometr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ProfesionalniVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/SportovniVybaveni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniLecba"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dospeli"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Seniori"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Profesionalni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">36</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#UcetniOdpisovaTrida"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Přístroj, který měří objem plic a sleduje dechové kapacity v rámci lékařské diagnostiky</rdfs:comment>
     </owl:Class>
     
@@ -1179,7 +2633,98 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#StacionarniCyklotrenazer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#StacionarniCyklotrenazer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/SportovniVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Amerika"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:qualifiedCardinality>
+                                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Evropa"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">12</owl:minQualifiedCardinality>
+                                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/SportovniVybaveni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dospeli"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Poloprofesionalni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Stredni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#EkonomickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#UcetniOdpisovaTrida"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Stacionarni cyklotrenažer, sloužící k vytrvalostní přípravě cyklistů a triatlonistů.
 Primární využití je v zimní části sezony</rdfs:comment>
     </owl:Class>
@@ -1189,7 +2734,79 @@ Primární využití je v zimní části sezony</rdfs:comment>
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#StacionarniEKGMonitor -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#StacionarniEKGMonitor">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ProfesionalniVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniLekarskeVybaveni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniLecba"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#BezOmezeni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Profesionalni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Amerika"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#EkonomickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">60</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#UcetniOdpisovaTrida"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Ponitor srdeční aktivity, který se používá v nemocnicích a klinikách</rdfs:comment>
     </owl:Class>
     
@@ -1198,7 +2815,72 @@ Primární využití je v zimní části sezony</rdfs:comment>
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#StacionarniElektroencefalograf -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#StacionarniElektroencefalograf">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ProfesionalniVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniLecba"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#BezOmezeni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Profesionalni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Amerika"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#EkonomickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">11</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">60</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#UcetniOdpisovaTrida"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Přístroj, který měří elektrickou aktivitu mozku, používaný v lékařských zařízeních</rdfs:comment>
     </owl:Class>
     
@@ -1207,7 +2889,87 @@ Primární využití je v zimní části sezony</rdfs:comment>
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#StacionarniSpirometr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#StacionarniSpirometr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ProfesionalniVybaveni"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePouzivanJako"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/SportovniVybaveni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniLecba"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dospeli"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeUrcenProPohlavi"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Muzske"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zenske"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeVCenoveKategorii"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Poloprofesionalni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Profesionalni"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Stredni"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Asie"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#EkonomickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TechnickaZivotnost"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ZarucniDoba"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">36</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#UcetniOdpisovaTrida"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="cs">Přístroj, který měří objem plic a sleduje dechové kapacity v rámci lékařské diagnostiky v nemocnicích a klinikách</rdfs:comment>
     </owl:Class>
     
@@ -1345,7 +3107,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zimni -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zimni">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasoveVyuziti"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasovaVyuzitelnost"/>
     </owl:Class>
     
 
@@ -1422,7 +3184,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#GE_Healthcare_MAC_5500_HD_EKG_system -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#GE_Healthcare_MAC_5500_HD_EKG_system">
-        <rdf:type rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#StacionarniEKGMonitor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniEKGMonitor"/>
     </owl:NamedIndividual>
     
 
@@ -1502,7 +3264,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Roscoe_Medical_Ultrasonic_nebulizer -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Roscoe_Medical_Ultrasonic_nebulizer">
-        <rdf:type rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniUltrazvukovyPristroj"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniUltrazvukovyNebulizer"/>
     </owl:NamedIndividual>
     
 
@@ -1582,6 +3344,25 @@ Primární využití je v zimní části sezony</rdfs:comment>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/OutdoorVybaveni"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciLecba"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniLekarskeVybaveni"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniLecba"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SportovniVybaveni"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#BezOmezeni"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Deti"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dospeli"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Seniori"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ChytraDomaciVaha"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ChytryUsniTeplomer"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DetskyChytryZubniKartacek"/>
@@ -1598,7 +3379,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
             <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniOxymetr"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniSpirometr"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniSportestr"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniUltrazvukovyPristroj"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniUltrazvukovyNebulizer"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobníVodniFiltr"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniCyklistickyPowerMeter"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniEKGMonitor"/>
@@ -1609,9 +3390,45 @@ Primární využití je v zimní části sezony</rdfs:comment>
             <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#StacionarniSpirometr"/>
         </owl:members>
     </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciLecba"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniLekarskeVybaveni"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniLecba"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SportovniVybaveni"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Jaro"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Leto"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Podzim"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zimni"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Poloprofesionalni"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Profesionalni"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Stredni"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Zakladni"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PouzitiBezOmezeni"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SterilniProstredi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#VenkovniPouziti"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#VnitrniPouziti"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 
