@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c52318-97f8-42b2-ae67-ab6dd586136d" name="Changes" comment="Switch of Primitive and Definable classes.&#10;Added new Primitive classes&#10;All primitive classes has required comment&#10;Some modifiable classes renamed&#10;Removed modifiable classes, which will be added as datatype atributes" />
+    <list default="true" id="95c52318-97f8-42b2-ae67-ab6dd586136d" name="Changes" comment="Requirements in protocol marked with color based on whether they are complete (green), somehow done...will need adjustments (yellow), or not done at all (no color).&#10;&#10;Specific range defined for each of the Datatype properties&#10;&#10;All comments identified as Czech language (cs)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$otokol k seminarnimu projektu-2022-2023.docx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +42,21 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SeminarniPrace" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SeminarniPrace" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,6 +69,8 @@
       <workItem from="1679498271186" duration="966000" />
       <workItem from="1679816030245" duration="308000" />
       <workItem from="1680010241579" duration="414000" />
+      <workItem from="1680017575214" duration="243000" />
+      <workItem from="1680195727879" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="Ondra - initial definition of classes">
       <created>1679469882033</created>
@@ -80,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679816328413</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Requirements in protocol marked with color based on whether they are complete (green), somehow done...will need adjustments (yellow), or not done at all (no color).&#10;&#10;Specific range defined for each of the Datatype properties&#10;&#10;All comments identified as Czech language (cs)">
+      <created>1680017809312</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680017809312</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +128,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Ondra - initial definition of classes" />
     <MESSAGE value="Switch of Primitive and Definable classes.&#10;Added new Primitive classes&#10;All primitive classes has required comment&#10;Some modifiable classes renamed&#10;Removed modifiable classes, which will be added as datatype atributes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Switch of Primitive and Definable classes.&#10;Added new Primitive classes&#10;All primitive classes has required comment&#10;Some modifiable classes renamed&#10;Removed modifiable classes, which will be added as datatype atributes" />
+    <MESSAGE value="Requirements in protocol marked with color based on whether they are complete (green), somehow done...will need adjustments (yellow), or not done at all (no color).&#10;&#10;Specific range defined for each of the Datatype properties&#10;&#10;All comments identified as Czech language (cs)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Requirements in protocol marked with color based on whether they are complete (green), somehow done...will need adjustments (yellow), or not done at all (no color).&#10;&#10;Specific range defined for each of the Datatype properties&#10;&#10;All comments identified as Czech language (cs)" />
   </component>
 </project>
