@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7693fad-0d10-47f8-a2dd-32267d00e6d0" name="Changes" comment="modifikace odvozenych trid">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZubecLevashev.owl" beforeDir="false" afterPath="$PROJECT_DIR$/ZubecLevashev.owl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZubecLevashevWithTestClasses.owl" beforeDir="false" afterPath="$PROJECT_DIR$/ZubecLevashevWithTestClasses.owl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-v001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-v001.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e7693fad-0d10-47f8-a2dd-32267d00e6d0" name="Changes" comment="zmena" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +62,7 @@
       <workItem from="1680594114800" duration="176000" />
       <workItem from="1680748905278" duration="634000" />
       <workItem from="1680768124273" duration="815000" />
+      <workItem from="1680780672023" duration="368000" />
     </task>
     <task id="LOCAL-00003" summary="Issues with inconsistency fixed&#10;changed datatype properties from decimal to integer ranges&#10;created new ontology file, containing inconsistent testing classes">
       <created>1680594273872</created>
@@ -117,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680768542750</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="zmena">
+      <created>1680780716509</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680780716509</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +142,7 @@
     <MESSAGE value="Issues with inconsistency fixed&#10;changed datatype properties from decimal to integer ranges&#10;created new ontology file, containing inconsistent testing classes" />
     <MESSAGE value="Uprava pro odvozovane tridy" />
     <MESSAGE value="modifikace odvozenych trid" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifikace odvozenych trid" />
+    <MESSAGE value="zmena" />
+    <option name="LAST_COMMIT_MESSAGE" value="zmena" />
   </component>
 </project>
