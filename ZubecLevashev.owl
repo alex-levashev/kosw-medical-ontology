@@ -4,6 +4,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:smart-health-solutions="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/">
@@ -368,7 +369,8 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Profesionalni"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DefinableClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/PelletemAutomatickyOdvozovaneTridy"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Daná třída zahrnuje přístroje a lékařské vybavení, spadající do cenové kategorie profesionálních přístrojů, které je možné najít typicky ve špičkových ordinacích nebo nemocničních komplexech.</rdfs:comment>
     </owl:Class>
     
 
@@ -399,6 +401,14 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
     
 
 
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/PelletemAutomatickyOdvozovaneTridy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/PelletemAutomatickyOdvozovaneTridy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DefinableClass"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ProfesionalniLekarskeVybaveni -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ProfesionalniLekarskeVybaveni">
@@ -408,7 +418,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniLecba"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DefinableClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/PelletemAutomatickyOdvozovaneTridy"/>
     </owl:Class>
     
 
@@ -430,7 +440,45 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
                 <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Deti"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DefinableClass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/PelletemAutomatickyOdvozovaneTridy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/VyrobkyProdavaneVEvrope -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/VyrobkyProdavaneVEvrope">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/PelletemAutomatickyOdvozovaneTridy"/>
+        <rdfs:comment xml:lang="cs">Daná třída definuje kategorii podtříd, zahrnující výrobky, které jsou prodávány v Evropě</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/VyrobkySDlouhouZarucniDobou -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/VyrobkySDlouhouZarucniDobou">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#maZarucniDobu"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/PelletemAutomatickyOdvozovaneTridy"/>
     </owl:Class>
     
 
@@ -456,15 +504,6 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Amerika">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MistoProdeje"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Anestetikum -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Anestetikum">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SpotrebniMaterial"/>
-        <rdfs:comment xml:lang="cs">Používá se k utlumení bolesti během operace nebo jiných zdravotních zákroků</rdfs:comment>
     </owl:Class>
     
 
@@ -512,22 +551,12 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CholesterolMetr -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CholesterolMetr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DiagnostickeVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k měření hladiny cholesterolu v krvi</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ChytraDomaciVaha -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ChytraDomaciVaha">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DefinableClass"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Vaha"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeMistneVyuzitelnyV"/>
@@ -591,6 +620,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DefinableClass"/>
         <rdfs:comment xml:lang="cs">Osobní váha se schopnotí měření váhy, množství tuku i tukuprosté hmoty v jednotlivých částech těla.
 
 Využití je jak v rámci lékařských ordinací, tak v domácím prostředí.
@@ -661,15 +691,6 @@ Díky této chytré funkci pomáhá uživateli velmi rychle určit zda se teplot
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CisticOcnichCocek -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CisticOcnichCocek">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#HygienickeVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k čištění kontaktních čoček</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CisticVody -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CisticVody">
@@ -682,15 +703,6 @@ Díky této chytré funkci pomáhá uživateli velmi rychle určit zda se teplot
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DefinableClass -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DefinableClass"/>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Desinfekce -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Desinfekce">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SpotrebniMaterial"/>
-        <rdfs:comment xml:lang="cs">Používá se k dezinfekci různých povrchů a materiálů v lékařských zařízeních</rdfs:comment>
-    </owl:Class>
     
 
 
@@ -746,7 +758,7 @@ Díky záznamu má ústní hygienu pod kontrolou i rodič, aniž by byl nutně p
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DiagnostickeVybaveni -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DiagnostickeVybaveni">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PristrojoveVybaveni"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
         <rdfs:comment xml:lang="cs">Používá se k diagnostice zdravotního stavu pacienta</rdfs:comment>
     </owl:Class>
     
@@ -757,15 +769,6 @@ Díky záznamu má ústní hygienu pod kontrolou i rodič, aniž by byl nutně p
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DiagnostickySoftware">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SoftwaroveVybaveni"/>
         <rdfs:comment xml:lang="cs">Jedná se o softwarové aplikace, které umožňují diagnostiku různých onemocnění a poskytují lékařům informace o stavu pacienta. Mezi takové aplikace patří například software pro analýzu zobrazovacích metod (CT, MRI, ultrazvuk apod.) nebo pro analýzu biochemických dat.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dializer -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dializer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TerapeutickeVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k čištění krve pacienta s chronickým selháním ledvin</rdfs:comment>
     </owl:Class>
     
 
@@ -822,7 +825,7 @@ Zároveň je přístroj vybaven senzory kontrolujícími život ohrožující l�
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DefinableClass"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dializer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#KrevniDializa"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeMistneVyuzitelnyV"/>
                         <owl:someValuesFrom>
@@ -1002,7 +1005,7 @@ Přístroj zaznamenává stav pacienta a díky vestavěnému připojení na cent
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/prodavaSeVLokalite"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Celosvetove"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Asie"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1097,29 +1100,11 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#FyzickeVybaveni -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#FyzickeVybaveni">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
-        <rdfs:comment xml:lang="cs">Fyzické vybavení je třída, která zahrnuje různé druhy vybavení používané v lékařství a zdravotnictví.</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#HygienickeVybaveni -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#HygienickeVybaveni">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PristrojoveVybaveni"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
         <rdfs:comment xml:lang="cs">Používá se k udržování čistoty a hygieny v lékařských zařízeních</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Ionizer -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Ionizer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#HygienickeVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k čištění vzduchu od prachu a alergenů</rdfs:comment>
     </owl:Class>
     
 
@@ -1141,20 +1126,11 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Kapky -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#KrevniDializa -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Kapky">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SpotrebniMaterial"/>
-        <rdfs:comment xml:lang="cs">Používají se k léčbě očních nebo nosních problémů</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Laser -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Laser">
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#KrevniDializa">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TerapeutickeVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k léčbě různých zdravotních problémů, jako jsou bolesti zad nebo záněty. Druhým použitím je určen jako náhrada skalpelu pro velmi přezné chirurgické, či dentální zákroky</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Používá se k čištění krve pacienta s chronickým selháním ledvin</rdfs:comment>
     </owl:Class>
     
 
@@ -1163,24 +1139,6 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Leto">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#CasovaVyuzitelnost"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Luzko -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Luzko">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PomocneVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k umístění pacienta, aby byl v bezpečí a pohodlí</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Magnetoterapie -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Magnetoterapie">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TerapeutickeVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k léčbě bolesti, zánětu nebo poruchy spánku</rdfs:comment>
     </owl:Class>
     
 
@@ -1237,25 +1195,6 @@ Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Mast -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Mast">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SpotrebniMaterial"/>
-        <rdfs:comment xml:lang="cs">Používá se k léčbě kůže a různých kožních onemocnění</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MechanickaRuka -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MechanickaRuka">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TerapeutickeVybaveni"/>
-        <rdfs:comment xml:lang="cs">Je využívána jako pomocný nástroj operatéra, či terapeuta, zjemnění jeho pohybů a ochranu nechtěných pohybů, při kterých by mohlo dojít k nechtěnné újmě pacienta.
-V poslední době je možné využít jak přímé ovládání mechanické paže, nebo její ovládání přes internet a operacím s využitím odborníků na danou oblast, kteří by v jiném případě nebyli pro pacienta v místě operace dostupní.</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MistoProdeje -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MistoProdeje">
@@ -1297,47 +1236,11 @@ V poslední době je možné využít jak přímé ovládání mechanické paže
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Nite -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Nite">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SpotrebniMaterial"/>
-        <rdfs:comment xml:lang="cs">Používají se k šití ran po operacích nebo jiných zákrocích</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Obvaz -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Obvaz">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SpotrebniMaterial"/>
-        <rdfs:comment xml:lang="cs">Jde o materiál, který se používá k obvazování rány nebo k podpoře svalů a kloubů</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OperacniSystem -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OperacniSystem">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SoftwaroveVybaveni"/>
         <rdfs:comment xml:lang="cs">Jde o software, který umožňuje provozování počítačů a jiných zařízení v zdravotnických zařízeních. Kromě běžného provozu počítačů poskytuje i zabezpečení sítě a chrání data pacientů.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Optometr -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Optometr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DiagnostickeVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k měření zrakových schopností</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Orteza -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Orteza">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PomocneVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k podpoře nebo ochraně poškozeného kloubu nebo končetiny.</rdfs:comment>
     </owl:Class>
     
 
@@ -1650,15 +1553,6 @@ Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:com
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Otuzilost -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Otuzilost">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TreninkoveVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k posilování imunitního systému pacienta</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OxyMetr -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OxyMetr">
@@ -1702,15 +1596,6 @@ Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:com
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PomocneVybaveni -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PomocneVybaveni">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#FyzickeVybaveni"/>
-        <rdfs:comment xml:lang="cs">Tato podtřída zahrnuje různé druhy vybavení, které pomáhají pacientům se zdravotními problémy</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PowerMeter -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PowerMeter">
@@ -1723,15 +1608,6 @@ Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:com
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PristrojoveVybaveni -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PristrojoveVybaveni">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#FyzickeVybaveni"/>
-        <rdfs:comment xml:lang="cs">Tato podtřída obsahuje různé druhy diagnostického, hygienického, terapeutického a tréninkového vybavení.</rdfs:comment>
-    </owl:Class>
     
 
 
@@ -1899,24 +1775,6 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Rentgen -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Rentgen">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DiagnostickeVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k zobrazování vnitřních orgánů a kostí pomocí rentgenového záření</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Rychlost -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Rychlost">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TreninkoveVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k tréninku běhu nebo jiných rychlostních sportů</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Seniori -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Seniori">
@@ -1934,15 +1792,6 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Sonograf -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Sonograf">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DiagnostickeVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k zobrazování vnitřních orgánů pomocí ultrazvukových vln</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SportovniVybaveni -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SportovniVybaveni">
@@ -1954,17 +1803,8 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SpotrebniMaterial -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SpotrebniMaterial">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#FyzickeVybaveni"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
         <rdfs:comment xml:lang="cs">ato podtřída obsahuje různé druhy materiálu, které se používají v lékařství a zdravotnictví</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SrdecniMonitor -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SrdecniMonitor">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DiagnostickeVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k měření srdečního tepu a rytmu</rdfs:comment>
     </owl:Class>
     
 
@@ -2126,15 +1966,6 @@ Primární využití je v zimní části sezony</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Svorky -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Svorky">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SpotrebniMaterial"/>
-        <rdfs:comment xml:lang="cs">Používají se k fixaci některých typů lékařských pomůcek nebo k zastavení krvácení</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Teplomer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Teplomer">
@@ -2147,7 +1978,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TerapeutickeVybaveni -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TerapeutickeVybaveni">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PristrojoveVybaveni"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
         <rdfs:comment xml:lang="cs">Používá se k léčbě zdravotních problémů pacienta</rdfs:comment>
     </owl:Class>
     
@@ -2156,7 +1987,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TreninkoveVybaveni -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TreninkoveVybaveni">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PristrojoveVybaveni"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
         <rdfs:comment xml:lang="cs">Používá se k trénování zdraví a kondice pacienta</rdfs:comment>
     </owl:Class>
     
@@ -2201,15 +2032,6 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#VnitrniPouziti">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#MístoVyuziti"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Vrtacka -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Vrtacka">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TerapeutickeVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k odstraňování zubů nebo k odbourání kamenů v močovém měchýři</rdfs:comment>
     </owl:Class>
     
 
@@ -2310,6 +2132,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Elite_Directo_XR">
         <rdf:type rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#StacionarniCyklotrenazer"/>
+        <smart-health-solutions:maZarucniDobu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</smart-health-solutions:maZarucniDobu>
     </owl:NamedIndividual>
     
 
@@ -2318,6 +2141,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#GE_Healthcare_MAC_5500_HD_EKG_system">
         <rdf:type rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ProfesionalniEKGMonitor"/>
+        <smart-health-solutions:maZarucniDobu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</smart-health-solutions:maZarucniDobu>
     </owl:NamedIndividual>
     
 
@@ -2362,6 +2186,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#NeuroSky_MindWave_Mobile_2_EEG_headset">
         <rdf:type rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciElektroencefalograf"/>
+        <smart-health-solutions:maZarucniDobu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</smart-health-solutions:maZarucniDobu>
     </owl:NamedIndividual>
     
 
@@ -2370,6 +2195,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Nihon_Kohden_Neurofax_EEG_machine">
         <rdf:type rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#StacionarniElektroencefalograf"/>
+        <smart-health-solutions:maZarucniDobu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</smart-health-solutions:maZarucniDobu>
     </owl:NamedIndividual>
     
 
@@ -2386,6 +2212,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Omron_HeartGuide_EKG_watch">
         <rdf:type rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#OsobniElektrokardiograf"/>
+        <smart-health-solutions:maZarucniDobu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</smart-health-solutions:maZarucniDobu>
     </owl:NamedIndividual>
     
 

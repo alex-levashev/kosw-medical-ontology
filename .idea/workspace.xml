@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7693fad-0d10-47f8-a2dd-32267d00e6d0" name="Changes" comment="modifikace odvozenych trid">
-      <change beforePath="$PROJECT_DIR$/ClassInteractions.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/ClassInteractions.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZubecLevashev.owl" beforeDir="false" afterPath="$PROJECT_DIR$/ZubecLevashev.owl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZubecLevashevWithTestClasses.owl" beforeDir="false" afterPath="$PROJECT_DIR$/ZubecLevashevWithTestClasses.owl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-v001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-v001.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +66,7 @@
       <updated>1680594113350</updated>
       <workItem from="1680594114800" duration="176000" />
       <workItem from="1680748905278" duration="634000" />
-      <workItem from="1680768124273" duration="382000" />
+      <workItem from="1680768124273" duration="815000" />
     </task>
     <task id="LOCAL-00003" summary="Issues with inconsistency fixed&#10;changed datatype properties from decimal to integer ranges&#10;created new ontology file, containing inconsistent testing classes">
       <created>1680594273872</created>
@@ -94,7 +96,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680768499550</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="modifikace odvozenych trid">
+      <created>1680768521386</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680768521386</updated>
+    </task>
+    <task id="LOCAL-00008" summary="modifikace odvozenych trid">
+      <created>1680768529001</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680768529001</updated>
+    </task>
+    <task id="LOCAL-00009" summary="modifikace odvozenych trid">
+      <created>1680768542750</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680768542750</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
