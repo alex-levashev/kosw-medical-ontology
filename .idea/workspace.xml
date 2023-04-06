@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7693fad-0d10-47f8-a2dd-32267d00e6d0" name="Changes" comment="Issues with inconsistency fixed">
-      <change beforePath="$PROJECT_DIR$/Zaloha/ZubecLevashev.owl" beforeDir="false" />
+    <list default="true" id="e7693fad-0d10-47f8-a2dd-32267d00e6d0" name="Changes" comment="Issues with inconsistency fixed&#10;changed datatype properties from decimal to integer ranges&#10;created new ontology file, containing inconsistent testing classes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassInteractions.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/ClassInteractions.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZubecLevashev.owl" beforeDir="false" afterPath="$PROJECT_DIR$/ZubecLevashev.owl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZubecLevashev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ZubecLevashev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-v001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-v001.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,18 +18,32 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Nx7vLDQ0H9GuMiMAlSvZuLavgd" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Issues with inconsistency fixed">
       <created>1680554790733</created>
@@ -41,11 +59,31 @@
       <option name="project" value="LOCAL" />
       <updated>1680554817402</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7693fad-0d10-47f8-a2dd-32267d00e6d0" name="Changes" comment="Issues with inconsistency fixed" />
+      <created>1680594113350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680594113350</updated>
+      <workItem from="1680594114800" duration="176000" />
+      <workItem from="1680748905278" duration="634000" />
+    </task>
+    <task id="LOCAL-00003" summary="Issues with inconsistency fixed&#10;changed datatype properties from decimal to integer ranges&#10;created new ontology file, containing inconsistent testing classes">
+      <created>1680594273872</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680594273872</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Issues with inconsistency fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Issues with inconsistency fixed" />
+    <MESSAGE value="Issues with inconsistency fixed&#10;changed datatype properties from decimal to integer ranges&#10;created new ontology file, containing inconsistent testing classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Issues with inconsistency fixed&#10;changed datatype properties from decimal to integer ranges&#10;created new ontology file, containing inconsistent testing classes" />
   </component>
 </project>
