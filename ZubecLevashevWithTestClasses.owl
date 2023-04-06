@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/"
      xml:base="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:smart-health-solutions="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:smart-health-solutions="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/">
         <rdfs:comment>SmartHealthSolutions Ontology
 Alexey Levashev - Ondrej Zubec
@@ -316,6 +316,56 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CisticVzduchu">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#HygienickeVybaveni"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DiagnostickySoftwareProNemocnice -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#DiagnostickySoftwareProNemocnice">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/TestClass"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jePatentovan"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Ano"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Ne"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#EEG -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#EEG">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/TestClass"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeMistneVyuzitelnyV"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SterilniProstredi"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#VenkovniPouziti"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </owl:Class>
     
 
@@ -2154,6 +2204,14 @@ Primární využití je v zimní části sezony</rdfs:comment>
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Diagnostic108 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Diagnostic108">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#DiagnostickySoftwareProNemocnice"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/CardioLine -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/CardioLine">
@@ -2397,5 +2455,5 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 
