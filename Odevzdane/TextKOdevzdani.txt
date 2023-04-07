@@ -1,0 +1,7 @@
+Pro moznost konzistence vytvorene ontologie pripojujeme jeji podobu s i bez testovacich trid. 
+
+V ramci testovacich trid, respektive jejich kontroly pres Pellet jsou identifikovany pouze 2 tridy, kde dochazi k inkonzistenci diky pouzitym podminkam pro danou tridu. Nicmene pokud si odzkousime jednotlive tridy nezavisle (ontologie obsahuje vzdy jen jednu z testovacich trid s identickymi podminkami), pak Pellet korentne vyhodnoti inkonzistenci v podminkach. Z daneho důvodu považujeme kontrolu a identifikaci pouze dvou nekonzistetnich trid jako softwarovou chybu Pelletu. 
+
+Pro lepší čitelnost zobrazení vytvořené ontologie, jak v definovanem, tak odvozeném stavu přikládáme i jejich PNG podobu, která na rozdíl od obrázku vloženého do protokolu umoznuje její zvětšení 
+
+A finálně přikládáme i xls soubor ukazující provazbu Objektových vlastností a jejich provázání na odpovídající inverzní objektovou vlastnost i samotnou třídu, ke které se daná objektová vlastnost váže.

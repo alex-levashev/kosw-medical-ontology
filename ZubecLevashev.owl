@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/"
      xml:base="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:smart-health-solutions="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:smart-health-solutions="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/">
         <rdfs:comment>SmartHealthSolutions Ontology
 Alexey Levashev - Ondrej Zubec
@@ -316,6 +316,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#CisticVzduchu">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#HygienickeVybaveni"/>
+        <rdfs:comment xml:lang="cs">Přistroj zajišťující průběžnou filtraci vzduchu v místnosti</rdfs:comment>
     </owl:Class>
     
 
@@ -324,6 +325,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#EKG">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DiagnostickeVybaveni"/>
+        <rdfs:comment xml:lang="cs">Přístroj sloužící k měření srdeční činnosti pacienta</rdfs:comment>
     </owl:Class>
     
 
@@ -332,6 +334,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Glukometr">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DiagnostickeVybaveni"/>
+        <rdfs:comment xml:lang="cs">Přístroj sloužící k měření a konrole cukru v krvi pacienta</rdfs:comment>
     </owl:Class>
     
 
@@ -340,6 +343,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Nebulizer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TerapeutickeVybaveni"/>
+        <rdfs:comment xml:lang="cs">Přístroj schopný díky ultrazvuku čistit okolní vzduch.</rdfs:comment>
     </owl:Class>
     
 
@@ -348,6 +352,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Spirometr">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DiagnostickeVybaveni"/>
+        <rdfs:comment xml:lang="cs">Přístroj sloužící k měření kapacity plic a výdechové křivky pacienta</rdfs:comment>
     </owl:Class>
     
 
@@ -356,6 +361,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Tonometr">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DiagnostickeVybaveni"/>
+        <rdfs:comment xml:lang="cs">Přístroj sloužící k měření krevního tlaku pacienta</rdfs:comment>
     </owl:Class>
     
 
@@ -371,6 +377,17 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/PelletemAutomatickyOdvozovaneTridy"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Daná třída zahrnuje přístroje a lékařské vybavení, spadající do cenové kategorie profesionálních přístrojů, které je možné najít typicky ve špičkových ordinacích nebo nemocničních komplexech.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ChytreLekarskeNite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ChytreLekarskeNite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SpotrebniMaterial"/>
+        <rdfs:comment xml:lang="cs">Dane spotrebni vybaveni slouži k šití vnitřeních orgánů při operacích. Po srůstu operovaného orgánu drži řez orgánu do jeho zhojení.
+
+Potom co je rána zhojena dochází k rozpuštní nítě a jejímu doplavení z těla ven.</rdfs:comment>
     </owl:Class>
     
 
@@ -405,6 +422,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/PelletemAutomatickyOdvozovaneTridy">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DefinableClass"/>
+        <rdfs:comment xml:lang="cs">Třídy automaticky odvozené Pelletem na základě definované podmínky</rdfs:comment>
     </owl:Class>
     
 
@@ -419,6 +437,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/PelletemAutomatickyOdvozovaneTridy"/>
+        <rdfs:comment xml:lang="cs">Třída, zahrnující přístroje, využívané pro profesionální léčbu pacientů</rdfs:comment>
     </owl:Class>
     
 
@@ -441,6 +460,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/PelletemAutomatickyOdvozovaneTridy"/>
+        <rdfs:comment xml:lang="cs">Třída zahrnující výrobky specificky určené pro dětskou věkovou kategorii</rdfs:comment>
     </owl:Class>
     
 
@@ -479,6 +499,7 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/PelletemAutomatickyOdvozovaneTridy"/>
+        <rdfs:comment xml:lang="cs">Učelem dané třídy je identifikovat individuální výrobky, jejíchž záruční lhůta je vyšší, nebo rovna 48 měsíců</rdfs:comment>
     </owl:Class>
     
 
@@ -487,15 +508,6 @@ Zařízení mohou být zařazeny do jedné z 8mi odpisových tříd. Z toho dův
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/ZpusobProvedeni">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#ModifierClass"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Akcelerometr -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Akcelerometr">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DiagnostickeVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k měření zrychlení a pohybu objektu</rdfs:comment>
     </owl:Class>
     
 
@@ -818,14 +830,14 @@ Zároveň je přístroj vybaven senzory kontrolujícími život ohrožující l�
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciDializacniJednotka -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciDialyzacniJednotka -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciDializacniJednotka">
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciDialyzacniJednotka">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DefinableClass"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#KrevniDializa"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#KrevniDialyza"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeMistneVyuzitelnyV"/>
                         <owl:someValuesFrom>
@@ -1010,9 +1022,9 @@ Přístroj zaznamenává stav pacienta a díky vestavěnému připojení na cent
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="cs">Přístroj, který měří objem plic a sleduje dechové kapacity.
+        <rdfs:comment xml:lang="cs">Přístroj, který měří objem plic a sleduje intenzitu výdechu testované osoby.
 
-V domácím prostředí je schopen pomoc poloprofesionálním sportovcům</rdfs:comment>
+V domácím prostředí je schopen pomoc poloprofesionálním sportovcům, kteří mohou jeho výsledky přenést do svého treninkového software a využít ho pro optimální nastavování další treninkové zátěže</rdfs:comment>
     </owl:Class>
     
 
@@ -1070,7 +1082,10 @@ V domácím prostředí je schopen pomoc poloprofesionálním sportovcům</rdfs:
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:comment xml:lang="cs">Vybavení určené pro domácí využítí, sloužící pro kontrolu krevního tlaku.
-Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše jako kontrolní mechanismus u osob trpících problémy krevního oběhu.</rdfs:comment>
+
+Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše jako kontrolní mechanismus u osob trpících problémy krevního oběhu.
+
+Jeho systém umožňuje detekovat problémové kombinace hodnot mezi systolickým a diastolickým tlakem a na tyto upozornit, prostřednictvím odpovídající hlášky. Díky této funkci může být přístroj efektivně využíán i osobou bez lékařských znalostí</rdfs:comment>
     </owl:Class>
     
 
@@ -1117,18 +1132,9 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#KapacitaPlic -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#KrevniDialyza -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#KapacitaPlic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TreninkoveVybaveni"/>
-        <rdfs:comment xml:lang="cs">Používá se k měření kapacity plic</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#KrevniDializa -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#KrevniDializa">
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#KrevniDialyza">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TerapeutickeVybaveni"/>
         <rdfs:comment xml:lang="cs">Používá se k čištění krve pacienta s chronickým selháním ledvin</rdfs:comment>
     </owl:Class>
@@ -1181,7 +1187,10 @@ Jde o diagnostické vybavení základní cenové kategorie, sloužící spíše 
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:comment xml:lang="cs">Pomocný přístroj sloužící k masírování a uvolnění svalů.
-Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití</rdfs:comment>
+
+Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití
+
+Vestavěné senzory umožňují masérovi detekovat stupeň zatuhnutí svalu a tím přispět k rovnoměrnému promasírování svalu v celé jeho délce.</rdfs:comment>
     </owl:Class>
     
 
@@ -1304,7 +1313,11 @@ Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="cs">Přístroj, který měří srdeční aktivitu a vytváří EKG záznam</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Přístroj, který měří srdeční aktivitu a vytváří EKG záznam.
+
+V osobním provedení je určen pro dlouhodobé průběžné měření srdeční aktivity pacienta trpícího například občasnou nepravidelností srdečního rytmu. 
+
+Výsledky z něj jsou následně nahrány do diagnostického přístroje lékaře, který pak může stanovit odpovídající léčbu.</rdfs:comment>
     </owl:Class>
     
 
@@ -1361,7 +1374,9 @@ Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="cs">Přístroj sloužící k dlouhodobému měření množství cukru v krvi pacienta trpícího cukrovkou</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Přístroj sloužící k dlouhodobému měření množství cukru v krvi pacienta trpícího cukrovkou.
+
+Jeho provedení je složeno z čidla, permanentně přidělaného na kůži pacienta a mobilní aplikace, která při detekci nízké, nebo naopak vysoké hladiny krevního cukru upozorní pacienta na nutnost medikace, či návštěvu lékaře.</rdfs:comment>
     </owl:Class>
     
 
@@ -1420,8 +1435,10 @@ Jeho cenová kategorie ho určuje pro domácí až poloprofesionální použití
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:comment xml:lang="cs">Osobní přístroj sloužící k dlouhodobému měření množství kyslíku v krvi.
+
 Využiván je pacienty trpícími nemocemi krevního oběhu. 
-Jeho napojení na mobilní aplikaci umožní upozorňit jeho uživatele, případně prostřednictvím mobilního napojení i nouzový kontakt na snižení hodnoty kyslíku pod kritickou mez.</rdfs:comment>
+
+Jeho napojení na mobilní aplikaci umožní upozorňit jeho uživatele, případně prostřednictvím mobilního napojení i nouzový kontakt na snižení hodnoty kyslíku pod kritickou mez a nutnost medikace, čí návštěvu lékaře.</rdfs:comment>
     </owl:Class>
     
 
@@ -1463,7 +1480,11 @@ Jeho napojení na mobilní aplikaci umožní upozorňit jeho uživatele, přípa
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="cs">Přístroj, který měří objem plic a sleduje dechové kapacity</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Přístroj, který měří objem plic a sleduje dechové kapacity
+
+V osobním provedení je využíván jako doplňkový přístroj pro pacienty trpícím dlouhodobými problémy dýchacího ústrojí...například astmatem. 
+
+Přístroj díky napojení na mobilní aplikaci zaznamenává dlouhodobý vývoj a je schopen detekovat případné zhoršující se trendy a na ty pacienta upozornit a to včetně doporučení návštěvy lékaře, pokud měřené hodnoty klesnou pod nastavenou kritickou mez.</rdfs:comment>
     </owl:Class>
     
 
@@ -1516,7 +1537,9 @@ Jeho napojení na mobilní aplikaci umožní upozorňit jeho uživatele, přípa
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="cs">Přístroj, který pomocí ultrazvuku upravuje složení vzduchu pro zlepšení kvality dechu lidí trpících astmatickými záchvaty</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Přístroj, který pomocí ultrazvuku upravuje složení vzduchu v místnosti.
+
+Slouží pro vylepšenní prostředí u pacientů trpících astmatickými záchvaty, či alergiemi na určité prvky, které se mohou nacházet ve vzduchu například v průmyslových, či městských konklomeracích.</rdfs:comment>
     </owl:Class>
     
 
@@ -1548,7 +1571,10 @@ Jeho napojení na mobilní aplikaci umožní upozorňit jeho uživatele, přípa
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:comment xml:lang="cs">Filtr pro přípravu pitné vody v prostředí, kde nezávadná pitná voda není k dispozici
-Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:comment>
+
+Filtrace probíhá pomocí materiálů s nanočástečkami stříbra.
+
+Je využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:comment>
     </owl:Class>
     
 
@@ -1651,7 +1677,9 @@ Využíván cestovateli jako osobní pomůcka při outdoor aktivitách</rdfs:com
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:comment xml:lang="cs">Cyklistické pedály Garmin, vybavené měřičem okamžitého výkonu cyklisty.
+
 Vybavení je určeno k poloprofesionálnímu, nebo profesionálnímu tréninku.
+
 Spolu se softwarovým vybavením slouží k nastavení správných tréninkových dávek a intenzit tréninkové zátěže</rdfs:comment>
     </owl:Class>
     
@@ -1716,7 +1744,11 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="cs">Monitor srdeční aktivity, který se používá v nemocnicích a klinikách</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Monitor srdeční aktivity, který se používá v nemocnicích a klinikách.
+
+Jeho softwarové vybavení umožní detekci chybného fungování srdeční činnosti pacienta a díky schopnosti srovnat záznam s větším vzorkem pacientů, jejíchž záznamy má daný software k dispozici i určení pravděpodobné diagnozy. 
+
+Touto detekcí umožňuje přístroj lékaři určit diagnozu rychleji a zaměřit a nepřehlédnout některé symptomy, které nemusí být na první pohled viditelné.</rdfs:comment>
     </owl:Class>
     
 
@@ -1770,7 +1802,11 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="cs">Přístroj, který měří objem plic a sleduje dechové kapacity v rámci lékařské diagnostiky</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Přístroj měří objem plic a sleduje intenzitu dechové kapacity v rámci lékařské diagnostiky.
+
+Díky napojení na diagnostický software je schopen detekovat anomálie ve výdechové křivce diagnostikovaného pacienta a upozornit tak lékaře na oblast, které se je třeba v rámci vyšetření věnovat hlouběji.
+
+Díky schopnosti přesného měření a schopnosti srovnávat výsledky měření pacienta s větším vzorkem pacientů, jejichž záznamy má přístroj k dispozici je schopen diagnostický softare odhalit i počínající problémy, které by lékař jinak mohl přehlédnout.</rdfs:comment>
     </owl:Class>
     
 
@@ -1804,7 +1840,7 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SpotrebniMaterial">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#PrimitiveClass"/>
-        <rdfs:comment xml:lang="cs">ato podtřída obsahuje různé druhy materiálu, které se používají v lékařství a zdravotnictví</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Tato podtřída obsahuje různé druhy materiálu, které se používají v lékařství a zdravotnictví</rdfs:comment>
     </owl:Class>
     
 
@@ -1816,7 +1852,7 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DefinableClass"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Vytrvalost"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#VytrvalostniTrenink"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/jeProVekovouKategorii"/>
                         <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Dospeli"/>
@@ -1857,8 +1893,11 @@ Spolu se softwarovým vybavením slouží k nastavení správných tréninkovýc
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="cs">Stacionarni cyklotrenažer, sloužící k vytrvalostní přípravě cyklistů a triatlonistů.
-Primární využití je v zimní části sezony</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Stacionarni cyklotrenažer, sloužící k vytrvalostní přípravě cyklistů a triatlonistů
+.
+Primární využití je v zimní části sezony
+
+Díky bezdrátovému napojení přístroje k tréninkovému software a elektromagnetickému přibržďování zadního kola je přístroj schopen velmi realisticky navozovat různé tréninkové podmínky a zátěže a uzpůsobit tak zátěž konkrétním částem tréninku a schopnostem sportovce, u něhož jsou v rámci tréninku snímány základní funkce jako kadence šlapání, intenzita srdečního tepu, okysličení krve..</rdfs:comment>
     </owl:Class>
     
 
@@ -1897,7 +1936,11 @@ Primární využití je v zimní části sezony</rdfs:comment>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment xml:lang="cs">Přístroj, který měří elektrickou aktivitu mozku, používaný v lékařských zařízeních</rdfs:comment>
+        <rdfs:comment xml:lang="cs">Přístroj, který měří elektrickou aktivitu mozku, používaný v lékařských zařízeních
+
+Přístroj zaznamenává stav pacienta a díky vestavěnému připojení na centrální monitorovací půlt v nemocnici, je schopen detekovat změny zdravotního stavu pacienta v případě potřeby zajistit okamžité informování dohledující zdravotní sestry, či lékaře.
+
+Jeho softwarové vybavení umožňuje nejen zaznamenávat měřené hodnoty, ale díky databázi měření většího vzorku pacientů, které má přístroj k dispozici i detekovat potenciální diagnozu a pomoct tak ošetřujícímu lékaři s rychlejší reakcí na pacientův zdravotní problém.</rdfs:comment>
     </owl:Class>
     
 
@@ -1993,15 +2036,6 @@ Primární využití je v zimní části sezony</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TreninkovySoftware -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TreninkovySoftware">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#SoftwaroveVybaveni"/>
-        <rdfs:comment xml:lang="cs">Tyto aplikace slouží k tréninku a rehabilitaci pacientů. Mezi takové aplikace patří například software pro fyzioterapii, rehabilitaci po operaci, cvičení srdce nebo dechové cvičení. Software umožňuje sledování a vyhodnocování pokroku pacienta a poskytuje informace o efektivitě terapie.</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Vaha -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Vaha">
@@ -2036,9 +2070,9 @@ Primární využití je v zimní části sezony</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Vytrvalost -->
+    <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#VytrvalostniTrenink -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#Vytrvalost">
+    <owl:Class rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#VytrvalostniTrenink">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#TreninkoveVybaveni"/>
         <rdfs:comment xml:lang="cs">Používá se k tréninku výdrže při sportovních aktivitách</rdfs:comment>
     </owl:Class>
@@ -2109,7 +2143,7 @@ Primární využití je v zimní části sezony</rdfs:comment>
     <!-- http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#BBraun_Physidia_monitor_S3 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#BBraun_Physidia_monitor_S3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciDializacniJednotka"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/levasev-zubec/ontologies/2023/2/smart-health-solutions/#DomaciDialyzacniJednotka"/>
     </owl:NamedIndividual>
     
 
@@ -2325,5 +2359,5 @@ Primární využití je v zimní části sezony</rdfs:comment>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 
